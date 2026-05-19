@@ -1,250 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>remote worlds</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #f5f4f0; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-<h2 class="sr-only">Remote Worlds homepage mockup v3 — with footer</h2>
+    .rw-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      overflow: hidden;
+      box-shadow: 0 2px 40px rgba(0,0,0,0.15);
+    }
+    .rw-root {
+      --rw-gold: #C4882A;
+      --rw-white: #FFFFFF;
+      --rw-white-70: rgba(255,255,255,0.72);
+      --rw-white-50: rgba(255,255,255,0.5);
+      --rw-white-25: rgba(255,255,255,0.22);
+      --rw-text: #1A1A18;
+      --rw-text-muted: #6B6860;
+      --rw-border: #E0DDD5;
+      background: var(--rw-gold);
+    }
 
-<style>
-  .rw-root {
-    --rw-gold: #C4882A;
-    --rw-white: #FFFFFF;
-    --rw-white-70: rgba(255,255,255,0.72);
-    --rw-white-50: rgba(255,255,255,0.5);
-    --rw-white-25: rgba(255,255,255,0.22);
-    --rw-black-20: rgba(0,0,0,0.18);
-    --rw-text: #1A1A18;
-    --rw-text-muted: #6B6860;
-    --rw-border: #E0DDD5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: var(--rw-gold);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .rw-nav {
-    display: flex; align-items: center;
-    padding: 0 28px; height: 60px;
-    border-bottom: 1px solid var(--rw-white-25);
-  }
-  .rw-logo {
-    font-family: Georgia, serif; font-size: 17px;
-    letter-spacing: 2px; color: var(--rw-white);
-    white-space: nowrap; margin-right: 28px; font-weight: normal;
-  }
-  .rw-navlinks {
-    flex: 1; display: flex; gap: 20px;
-    font-size: 11px; letter-spacing: 1.5px;
-    text-transform: uppercase; color: var(--rw-white-70);
-  }
-  .rw-hero { display: grid; grid-template-columns: 1fr 1fr; min-height: 380px; }
-  .rw-hero-text { padding: 44px 44px 44px 28px; display: flex; flex-direction: column; justify-content: center; }
-  .rw-tag-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
-  .rw-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--rw-white-70); }
-  .rw-tag-line { height: 1px; width: 44px; background: var(--rw-white-50); }
-  .rw-hero-title { font-family: Georgia, serif; font-size: 36px; color: var(--rw-white); line-height: 1.2; margin: 0 0 20px; font-weight: normal; }
-  .rw-hero-sub { font-size: 14px; color: var(--rw-white-70); line-height: 1.7; margin: 0 0 28px; }
-  .rw-meta-light { font-size: 11px; color: var(--rw-white-50); }
-  .rw-hero-img { background: var(--rw-black-20); display: flex; align-items: center; justify-content: center; flex-direction: column; color: var(--rw-white-25); gap: 8px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
-  .rw-cards { padding: 0 28px 28px; }
-  .rw-card { display: grid; grid-template-columns: 200px 1fr 32px; align-items: center; gap: 20px; padding: 24px 0; border-top: 1px solid var(--rw-white-25); }
-  .rw-card-img { height: 140px; background: var(--rw-black-20); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--rw-white-25); }
-  .rw-card-title { font-family: Georgia, serif; font-size: 20px; color: var(--rw-white); margin: 0 0 14px; font-weight: normal; line-height: 1.35; }
-  .rw-white-section { background: #FFFFFF; padding: 0 28px 32px; }
-  .rw-white-section-header { padding: 28px 0 20px; border-bottom: 1px solid var(--rw-border); margin-bottom: 24px; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--rw-text-muted); }
-  .rw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-  .rw-grid-card { background: #FFF; border: 0.5px solid var(--rw-border); border-radius: 6px; overflow: hidden; }
-  .rw-grid-img { height: 190px; background: #F0EDE6; display: flex; align-items: center; justify-content: center; color: #C8C3B8; }
-  .rw-grid-body { padding: 18px; }
-  .rw-grid-tag-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-  .rw-grid-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--rw-text-muted); }
-  .rw-grid-tag-line { height: 1px; width: 32px; background: #D0CCC4; }
-  .rw-grid-title { font-family: Georgia, serif; font-size: 17px; color: var(--rw-text); margin: 0 0 10px; font-weight: normal; line-height: 1.35; }
-  .rw-meta-dark { font-size: 11px; color: var(--rw-text-muted); }
+    /* NAV */
+    .rw-nav {
+      display: flex;
+      align-items: center;
+      padding: 0 36px;
+      height: 64px;
+      border-bottom: 1px solid var(--rw-white-25);
+    }
+    .rw-logo {
+      font-family: Georgia, serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      color: var(--rw-white);
+      white-space: nowrap;
+      margin-right: 32px;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    .rw-navlinks {
+      flex: 1;
+      display: flex;
+      gap: 20px;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--rw-white-70);
+    }
+    .rw-navlinks a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .rw-navlinks a:hover { color: var(--rw-white); }
 
-  .rw-footer {
-    background: #1A1814;
-    padding: 44px 28px 32px;
-  }
-  .rw-footer-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    padding-bottom: 36px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    margin-bottom: 28px;
-  }
-  .rw-footer-logo {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: var(--rw-white);
-    font-weight: normal;
-    margin-bottom: 12px;
-  }
-  .rw-footer-tagline {
-    font-size: 13px;
-    color: rgba(255,255,255,0.45);
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  .rw-footer-stat {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 6px;
-    background: rgba(196,136,42,0.18);
-    border: 0.5px solid rgba(196,136,42,0.35);
-    border-radius: 4px;
-    padding: 8px 14px;
-  }
-  .rw-footer-stat-num {
-    font-family: Georgia, serif;
-    font-size: 22px;
-    color: #C4882A;
-    font-weight: normal;
-  }
-  .rw-footer-stat-label {
-    font-size: 11px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: rgba(196,136,42,0.75);
-  }
-  .rw-footer-col-title {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.35);
-    margin-bottom: 16px;
-  }
-  .rw-footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .rw-footer-link {
-    font-size: 13px;
-    color: rgba(255,255,255,0.55);
-    cursor: pointer;
-  }
-  .rw-footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .rw-footer-copy {
-    font-size: 11px;
-    color: rgba(255,255,255,0.25);
-  }
-  .rw-footer-social {
-    display: flex;
-    gap: 16px;
-  }
-</style>
+    /* HERO */
+    .rw-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 460px;
+    }
+    .rw-hero-text {
+      padding: 52px 48px 52px 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .rw-tag-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+    .rw-tag {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--rw-white-70);
+    }
+    .rw-tag-sep { font-size: 10px; color: var(--rw-white-50); }
+    .rw-tag-line {
+      height: 1px;
+      width: 40px;
+      background: var(--rw-white-50);
+      flex-shrink: 0;
+    }
+    .rw-hero-title {
+      font-family: Georgia, serif;
+      font-size: 36px;
+      color: var(--rw-white);
+      line-height: 1.18;
+      margin: 0 0 18px;
+      font-weight: normal;
+    }
+    .rw-hero-sub {
+      font-size: 14px;
+      color: var(--rw-white-70);
+      line-height: 1.75;
+      margin: 0 0 28px;
+    }
+    .rw-meta-light { font-size: 12px; color: var(--rw-white-50); }
+    .rw-hero-img {
+      background-size: cover;
+      background-position: center;
+      min-height: 460px;
+    }
 
-<div class="rw-root">
+    /* CARDS */
+    .rw-cards { padding: 0 36px 28px; }
+    .rw-card {
+      display: grid;
+      grid-template-columns: 220px 1fr 28px;
+      align-items: center;
+      gap: 22px;
+      padding: 26px 0;
+      border-top: 1px solid var(--rw-white-25);
+      text-decoration: none;
+    }
+    .rw-card-img {
+      height: 148px;
+      border-radius: 4px;
+      background-size: cover;
+      background-position: center;
+    }
+    .rw-card-title {
+      font-family: Georgia, serif;
+      font-size: 21px;
+      color: var(--rw-white);
+      margin: 0 0 10px;
+      font-weight: normal;
+      line-height: 1.35;
+    }
+    .rw-card-sub {
+      font-size: 13px;
+      color: var(--rw-white-70);
+      line-height: 1.6;
+      margin: 0 0 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .rw-arrow { color: var(--rw-white-50); font-size: 20px; }
 
-  <nav class="rw-nav">
-    <div class="rw-logo">remote worlds</div>
-    <div class="rw-navlinks">
-      <span>destinations</span><span>africa</span><span>asia</span>
-      <span>americas</span><span>europe</span><span>oceania</span>
-      <span>remote work</span><span>about</span>
-    </div>
-    <i class="ti ti-search" style="color: var(--rw-white-70); font-size: 17px;" aria-hidden="true"></i>
-  </nav>
+    /* WHITE SECTION */
+    .rw-white-section { background: #FFFFFF; padding: 0 36px 36px; }
+    .rw-white-section-header {
+      padding: 28px 0 18px;
+      border-bottom: 1px solid var(--rw-border);
+      margin-bottom: 24px;
+      font-size: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--rw-text-muted);
+    }
+    .rw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .rw-grid-card {
+      background: #FFF;
+      border: 0.5px solid var(--rw-border);
+      border-radius: 6px;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    .rw-grid-img {
+      height: 210px;
+      background-size: cover;
+      background-position: center;
+    }
+    .rw-grid-body { padding: 18px; }
+    .rw-grid-tag-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .rw-grid-tag {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--rw-text-muted);
+    }
+    .rw-grid-tag-sep { font-size: 10px; color: #C8C3B8; }
+    .rw-grid-tag-line { height: 1px; width: 28px; background: #D0CCC4; flex-shrink: 0; }
+    .rw-grid-title {
+      font-family: Georgia, serif;
+      font-size: 17px;
+      color: var(--rw-text);
+      margin: 0 0 8px;
+      font-weight: normal;
+      line-height: 1.35;
+    }
+    .rw-grid-sub {
+      font-size: 12px;
+      color: var(--rw-text-muted);
+      line-height: 1.6;
+      margin: 0 0 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .rw-meta-dark { font-size: 11px; color: var(--rw-text-muted); }
 
-  <div class="rw-hero">
-    <div class="rw-hero-text">
-      <div class="rw-tag-row">
-        <span class="rw-tag">Central Asia</span>
-        <div class="rw-tag-line"></div>
+    /* FOOTER */
+    .rw-footer { background: #1A1814; padding: 44px 36px 28px; }
+    .rw-footer-top {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 44px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 24px;
+    }
+    .rw-footer-logo {
+      font-family: Georgia, serif;
+      font-size: 19px;
+      letter-spacing: 2px;
+      color: #fff;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+    .rw-footer-tagline {
+      font-size: 13px;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+    .rw-footer-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      background: rgba(196,136,42,0.18);
+      border: 0.5px solid rgba(196,136,42,0.35);
+      border-radius: 4px;
+      padding: 9px 15px;
+    }
+    .rw-footer-stat-num {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      color: #C4882A;
+      font-weight: normal;
+    }
+    .rw-footer-stat-label {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(196,136,42,0.75);
+    }
+    .rw-footer-col-title {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 14px;
+    }
+    .rw-footer-links { display: flex; flex-direction: column; gap: 11px; }
+    .rw-footer-link {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+    }
+    .rw-footer-link:hover { color: rgba(255,255,255,0.8); }
+    .rw-footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .rw-footer-copy { font-size: 11px; color: rgba(255,255,255,0.2); }
+    .rw-footer-social { display: flex; gap: 16px; }
+    .rw-footer-social a {
+      color: rgba(255,255,255,0.3);
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .rw-footer-social a:hover { color: rgba(255,255,255,0.7); }
+  </style>
+</head>
+<body>
+
+<div class="rw-wrapper">
+  <div class="rw-root">
+
+    <nav class="rw-nav">
+      <a href="/" class="rw-logo">remote worlds</a>
+      <div class="rw-navlinks">
+        <a href="/destinations">destinations</a>
+        <a href="/africa">africa</a>
+        <a href="/asia">asia</a>
+        <a href="/americas">americas</a>
+        <a href="/europe">europe</a>
+        <a href="/oceania">oceania</a>
+        <a href="/remote-work">remote work</a>
+        <a href="/about">about</a>
       </div>
-      <h1 class="rw-hero-title">Pamir Highway: the road at the edge of the world</h1>
-      <p class="rw-hero-sub">At 4,000 meters, between Tajikistan and China, on a road that barely exists. No car needed — shared taxis, local buses, and a lot of time.</p>
-      <div class="rw-meta-light">18 May 2026 &nbsp;·&nbsp; 12 min read</div>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </nav>
+
+    <div class="rw-hero">
+      <div class="rw-hero-text">
+        <div class="rw-tag-row">
+          <span class="rw-tag">Useful travel tips</span>
+          <div class="rw-tag-line"></div>
+        </div>
+        <h1 class="rw-hero-title">A different kind of travel blog: solo, car-free, working from anywhere</h1>
+        <p class="rw-hero-sub">I travel alone, backpack on, no car and no agencies, working remotely from every corner of the world — and I write about all of it here, on a travel blog inspired by the stories of Scheherazade.</p>
+        <div class="rw-meta-light">19 May 2026 &nbsp;·&nbsp; 8 min read</div>
+      </div>
+      <div class="rw-hero-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2021/02/Medellin21.webp');"></div>
     </div>
-    <div class="rw-hero-img">
-      <i class="ti ti-photo" style="font-size: 40px;" aria-hidden="true"></i>
-      <span>hero image</span>
+
+    <div class="rw-cards">
+      <a href="#" class="rw-card">
+        <div class="rw-card-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2024/11/VacanteExotice.webp');"></div>
+        <div>
+          <div class="rw-tag-row">
+            <span class="rw-tag">Africa</span>
+            <span class="rw-tag-sep">·</span>
+            <span class="rw-tag">North America</span>
+            <span class="rw-tag-sep">·</span>
+            <span class="rw-tag">Asia</span>
+            <div class="rw-tag-line"></div>
+          </div>
+          <h2 class="rw-card-title">The most beautiful exotic islands in the world, seen through my own eyes</h2>
+          <p class="rw-card-sub">Solo exotic holidays, sometimes staying a month at a time — my favorites so far across all corners of the world, without an agency.</p>
+          <div class="rw-meta-light">9 min read</div>
+        </div>
+        <span class="rw-arrow">→</span>
+      </a>
+
+      <a href="#" class="rw-card">
+        <div class="rw-card-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2025/07/Laugavegur04.webp');"></div>
+        <div>
+          <div class="rw-tag-row">
+            <span class="rw-tag">Oceania</span>
+            <span class="rw-tag-sep">·</span>
+            <span class="rw-tag">South America</span>
+            <span class="rw-tag-sep">·</span>
+            <span class="rw-tag">Asia</span>
+            <span class="rw-tag-sep">·</span>
+            <span class="rw-tag">Europe</span>
+            <div class="rw-tag-line"></div>
+          </div>
+          <h2 class="rw-card-title">The most beautiful mountain trails in the world: peaks and views that take your breath away</h2>
+          <p class="rw-card-sub">For someone without a hiking background, completing some of these trails felt like a small personal victory.</p>
+          <div class="rw-meta-light">10 min read</div>
+        </div>
+        <span class="rw-arrow">→</span>
+      </a>
     </div>
+
+    <div class="rw-white-section">
+      <div class="rw-white-section-header">Latest articles</div>
+      <div class="rw-grid">
+        <a href="#" class="rw-grid-card">
+          <div class="rw-grid-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2024/06/Mardin17.webp');"></div>
+          <div class="rw-grid-body">
+            <div class="rw-grid-tag-row">
+              <span class="rw-grid-tag">Turkey</span>
+              <span class="rw-grid-tag-sep">·</span>
+              <span class="rw-grid-tag">Europe</span>
+              <div class="rw-grid-tag-line"></div>
+            </div>
+            <h2 class="rw-grid-title">Mardin, in ancient Mesopotamia</h2>
+            <p class="rw-grid-sub">Hundreds of swallows cutting through the sky at sunset over the plains of ancient Mesopotamia, warm pistachio paste over vanilla ice cream, oriental music from cafés.</p>
+            <div class="rw-meta-dark">8 min read</div>
+          </div>
+        </a>
+        <a href="#" class="rw-grid-card">
+          <div class="rw-grid-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2025/07/Cracovia06.webp');"></div>
+          <div class="rw-grid-body">
+            <div class="rw-grid-tag-row">
+              <span class="rw-grid-tag">Poland</span>
+              <span class="rw-grid-tag-sep">·</span>
+              <span class="rw-grid-tag">Europe</span>
+              <div class="rw-grid-tag-line"></div>
+            </div>
+            <h2 class="rw-grid-title">Kraków, the fairytale city</h2>
+            <p class="rw-grid-sub">Dragons in a castle, horse-drawn carriages, bohemian neighborhoods, lanterns strung between facades, tiny cafés with vintage interiors.</p>
+            <div class="rw-meta-dark">7 min read</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <footer class="rw-footer">
+      <div class="rw-footer-top">
+        <div>
+          <div class="rw-footer-logo">remote worlds</div>
+          <p class="rw-footer-tagline">Solo travel, remote work, and places most people never reach. No car, no agency, no fixed address.</p>
+          <div class="rw-footer-stat">
+            <span class="rw-footer-stat-num">128</span>
+            <span class="rw-footer-stat-label">countries visited</span>
+          </div>
+        </div>
+        <div>
+          <div class="rw-footer-col-title">Destinations</div>
+          <div class="rw-footer-links">
+            <a href="/africa" class="rw-footer-link">Africa</a>
+            <a href="/asia" class="rw-footer-link">Asia</a>
+            <a href="/americas" class="rw-footer-link">Americas</a>
+            <a href="/europe" class="rw-footer-link">Europe</a>
+            <a href="/oceania" class="rw-footer-link">Oceania</a>
+          </div>
+        </div>
+        <div>
+          <div class="rw-footer-col-title">More</div>
+          <div class="rw-footer-links">
+            <a href="/remote-work" class="rw-footer-link">Remote Work</a>
+            <a href="/about" class="rw-footer-link">About</a>
+            <a href="/newsletter" class="rw-footer-link">Newsletter</a>
+            <a href="/contact" class="rw-footer-link">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="rw-footer-bottom">
+        <span class="rw-footer-copy">© 2026 remote worlds</span>
+        <div class="rw-footer-social">
+          <a href="#" aria-label="Instagram">&#x1F4F7;</a>
+          <a href="#" aria-label="X">&#x1D54F;</a>
+          <a href="#" aria-label="RSS">&#x2315;</a>
+        </div>
+      </div>
+    </footer>
+
   </div>
-
-  <div class="rw-cards">
-    <div class="rw-card">
-      <div class="rw-card-img"><i class="ti ti-photo" style="font-size: 28px;" aria-hidden="true"></i></div>
-      <div>
-        <div class="rw-tag-row"><span class="rw-tag">West Africa</span><div class="rw-tag-line"></div></div>
-        <h2 class="rw-card-title">Accra to Lagos by bus: what nobody tells you about overland travel in West Africa</h2>
-        <div class="rw-meta-light">3 April 2026 &nbsp;·&nbsp; 9 min read</div>
-      </div>
-      <i class="ti ti-arrow-right" style="color: var(--rw-white-50); font-size: 18px;" aria-hidden="true"></i>
-    </div>
-    <div class="rw-card">
-      <div class="rw-card-img"><i class="ti ti-photo" style="font-size: 28px;" aria-hidden="true"></i></div>
-      <div>
-        <div class="rw-tag-row"><span class="rw-tag">Remote Work</span><div class="rw-tag-line"></div></div>
-        <h2 class="rw-card-title">Working from Tbilisi: internet, cafés, and why Georgia just works</h2>
-        <div class="rw-meta-light">14 March 2026 &nbsp;·&nbsp; 7 min read</div>
-      </div>
-      <i class="ti ti-arrow-right" style="color: var(--rw-white-50); font-size: 18px;" aria-hidden="true"></i>
-    </div>
-  </div>
-
-  <div class="rw-white-section">
-    <div class="rw-white-section-header">Latest articles</div>
-    <div class="rw-grid">
-      <div class="rw-grid-card">
-        <div class="rw-grid-img"><i class="ti ti-photo" style="font-size: 32px;" aria-hidden="true"></i></div>
-        <div class="rw-grid-body">
-          <div class="rw-grid-tag-row"><span class="rw-grid-tag">Oceania · South America</span><div class="rw-grid-tag-line"></div></div>
-          <h2 class="rw-grid-title">The most remote islands in the world, visited without flying when possible</h2>
-          <div class="rw-meta-dark">13 July 2025 &nbsp;·&nbsp; 10 min read</div>
-        </div>
-      </div>
-      <div class="rw-grid-card">
-        <div class="rw-grid-img"><i class="ti ti-photo" style="font-size: 32px;" aria-hidden="true"></i></div>
-        <div class="rw-grid-body">
-          <div class="rw-grid-tag-row"><span class="rw-grid-tag">Africa · Asia</span><div class="rw-grid-tag-line"></div></div>
-          <h2 class="rw-grid-title">127 countries, no car: how I navigate the world entirely by public transport</h2>
-          <div class="rw-meta-dark">27 November 2024 &nbsp;·&nbsp; 8 min read</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="rw-footer">
-    <div class="rw-footer-top">
-      <div>
-        <div class="rw-footer-logo">remote worlds</div>
-        <p class="rw-footer-tagline">Solo travel, remote work, and places most people never reach. No car, no agency, no fixed address.</p>
-        <div class="rw-footer-stat">
-          <span class="rw-footer-stat-num">128</span>
-          <span class="rw-footer-stat-label">countries visited</span>
-        </div>
-      </div>
-      <div>
-        <div class="rw-footer-col-title">Destinations</div>
-        <div class="rw-footer-links">
-          <span class="rw-footer-link">Africa</span>
-          <span class="rw-footer-link">Asia</span>
-          <span class="rw-footer-link">Americas</span>
-          <span class="rw-footer-link">Europe</span>
-          <span class="rw-footer-link">Oceania</span>
-        </div>
-      </div>
-      <div>
-        <div class="rw-footer-col-title">More</div>
-        <div class="rw-footer-links">
-          <span class="rw-footer-link">Remote Work</span>
-          <span class="rw-footer-link">About</span>
-          <span class="rw-footer-link">Newsletter</span>
-          <span class="rw-footer-link">Contact</span>
-        </div>
-      </div>
-    </div>
-    <div class="rw-footer-bottom">
-      <span class="rw-footer-copy">© 2026 remote worlds</span>
-      <div class="rw-footer-social">
-        <i class="ti ti-brand-instagram" style="color: rgba(255,255,255,0.3); font-size: 17px;" aria-hidden="true"></i>
-        <i class="ti ti-brand-x" style="color: rgba(255,255,255,0.3); font-size: 17px;" aria-hidden="true"></i>
-        <i class="ti ti-rss" style="color: rgba(255,255,255,0.3); font-size: 17px;" aria-hidden="true"></i>
-      </div>
-    </div>
-  </footer>
-
 </div>
+
+</body>
+</html>
