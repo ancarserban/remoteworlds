@@ -17,15 +17,25 @@
   <style>
     .article-header { max-width: 780px; margin: 0 auto; padding: 56px 36px 32px; }
     .article-cats { display: flex; align-items: center; gap: 10px; margin-bottom: 22px; flex-wrap: wrap; }
-    .article-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; text-decoration: none; }
+    .article-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; text-decoration: none; font-family: system-ui, -apple-system, sans-serif; }
     .article-cat:hover { text-decoration: underline; }
     .article-cat-line { height: 1px; width: 44px; background: rgba(196,136,42,0.4); flex-shrink: 0; }
-    .article-title { font-family: Georgia, serif; font-size: 40px; line-height: 1.18; font-weight: normal; color: #1A1A18; margin-bottom: 24px; }
-    .article-meta { display: flex; align-items: center; gap: 14px; font-size: 13px; color: #999; }
+    .article-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 40px;
+      line-height: 1.15;
+      font-weight: 700;
+      color: #1A1A18;
+      margin-bottom: 24px;
+    }
+    .article-meta { display: flex; align-items: center; gap: 14px; font-size: 13px; color: #999; font-family: system-ui, -apple-system, sans-serif; }
     .article-meta-author { color: #555; font-weight: 500; }
     .article-meta-dot { color: #ddd; }
-    .featured-image { max-width: 780px; margin: 0 auto; padding: 0 36px; }
-    .featured-image img { width: 100%; height: auto; display: block; border-radius: 4px; }
+
+    /* COVER IMAGE — 25% wider/taller than text column */
+    .featured-image { max-width: 975px; margin: 0 auto; padding: 0 36px; }
+    .featured-image img { width: 100%; height: 550px; object-fit: cover; display: block; border-radius: 4px; }
+
     .article-body {
       max-width: 780px;
       margin: 0 auto;
@@ -33,8 +43,9 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     }
     .article-body p { font-size: 17px; line-height: 1.82; color: #2A2A28; margin-bottom: 22px; }
-    .article-body h2 { font-family: Georgia, serif; font-size: 26px; font-weight: normal; color: #1A1A18; margin: 48px 0 18px; line-height: 1.3; }
-    .article-body h3 { font-family: Georgia, serif; font-size: 21px; font-weight: normal; color: #1A1A18; margin: 38px 0 14px; line-height: 1.3; }
+    .article-body h2 { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 31px; font-weight: 600; color: #1A1A18; margin: 48px 0 18px; line-height: 1.25; }
+    .article-body h3 { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 25px; font-weight: 600; color: #1A1A18; margin: 38px 0 14px; line-height: 1.3; }
+    .article-body h4 { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 22px; font-weight: 600; color: #1A1A18; margin: 32px 0 12px; line-height: 1.3; }
     .article-body ul { margin: 0 0 22px 22px; }
     .article-body ul li { font-size: 17px; line-height: 1.82; color: #2A2A28; margin-bottom: 8px; }
     .article-body a { color: #C4882A; text-decoration: none; border-bottom: 1px solid rgba(196,136,42,0.3); }
@@ -55,16 +66,16 @@
     .toc ol ol { margin: 4px 0 4px 18px; }
     .toc ol ol li { font-size: 13px; color: #777; }
     .start-here { max-width: 780px; margin: 0 auto; padding: 0 36px 52px; border-top: 1px solid #E0DDD5; }
-    .start-here-title { padding-top: 36px; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #bbb; margin-bottom: 24px; }
+    .start-here-title { padding-top: 36px; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #bbb; margin-bottom: 24px; font-family: system-ui, -apple-system, sans-serif; }
     .start-card { display: grid; grid-template-columns: 160px 1fr 28px; align-items: center; gap: 20px; padding: 22px 0; border-top: 1px solid #E0DDD5; text-decoration: none; }
     .start-card:last-child { border-bottom: 1px solid #E0DDD5; }
     .start-img { height: 112px; border-radius: 4px; background-size: cover; background-position: center; background-color: #f0ede6; }
     .start-cat-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-    .start-cat { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; }
+    .start-cat { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; font-family: system-ui, -apple-system, sans-serif; }
     .start-cat-sep { font-size: 10px; color: rgba(196,136,42,0.4); }
     .start-cat-line { height: 1px; width: 28px; background: rgba(196,136,42,0.35); flex-shrink: 0; }
     .start-card-title { font-family: Georgia, serif; font-size: 17px; font-weight: normal; color: #1A1A18; line-height: 1.35; margin-bottom: 8px; }
-    .start-meta { font-size: 11px; color: #bbb; }
+    .start-meta { font-size: 11px; color: #bbb; font-family: system-ui, -apple-system, sans-serif; }
     .start-arrow { font-size: 18px; color: #ddd; }
   </style>
 </head>
@@ -142,7 +153,7 @@
       <li><strong>solo travel</strong>, regardless of destination (I've traveled alone on every continent except <strong>Antarctica</strong>, which I haven't gotten to yet)</li>
       <li>I'm a <strong>digital nomad</strong> with a full-time job (not a freelancer) and I've been working remotely from any country since August 2020 (yes, I started during the pandemic)</li>
       <li><strong>I travel by public transport only</strong> (I don't drive, no driver's license)</li>
-      <li><strong>I travel independently, without a travel agency</strong>, in the backpacker way; the only times I've used an agency (a local one, not from <strong>Romania</strong>) were for places you simply can't visit on your own, like <a href="https://www.remoteworlds.co/category/asia/asia-de-est/china/tibet/" target="_blank">Tibet</a>.</li>
+      <li><strong>I travel independently, without a travel agency</strong>, in the backpacker way; the only times I've used an agency (a local one, not from <strong>Romania</strong>) were for places you simply can't visit on your own, like <a href="https://www.1001calatorii.ro/category/asia/asia-de-est/china/tibet/" target="_blank">Tibet</a>.</li>
     </ul>
     <p>Being able to work remotely from any country means I can stay places far longer than a typical vacation allows, so I'm not writing from the perspective of a quick getaway but of a stay that's a complete experience. I live in <em><a href="https://www.airbnb.com" target="_blank">Airbnb</a></em>s, I live alongside locals, I move at a slower pace.</p>
     <p>I write about the logistics of travel and my real experiences, not dressed up for clicks. No vlogs, no hollow influencer content.</p>
@@ -155,12 +166,11 @@
     <h2 id="how-to-find">How to find a destination on a travel blog (guides, budgets, transport)</h2>
     <p>I've got over 1,100 articles and have visited <strong>115 countries</strong>, so there's plenty to dig into. Where to start:</p>
     <ul>
-      <li><strong><a href="https://www.remoteworlds.co/tari/" target="_blank">a page with every country</a></strong> — every country I've written about, grouped by number of articles per category</li>
       <li>the navigation menu at the very top is organized by continent and country, for easier browsing</li>
-      <li>articles are also grouped by interest: <a href="https://www.remoteworlds.co/tag/unesco/" target="_blank">UNESCO</a>, <a href="https://www.remoteworlds.co/tag/munte/" target="_blank">mountains</a>, <a href="https://www.remoteworlds.co/tag/plaje/" target="_blank">beaches</a>, <a href="https://www.remoteworlds.co/tag/castele/" target="_blank">castles</a>, <a href="https://www.remoteworlds.co/tag/bugete/" target="_blank">travel budgets</a>, <a href="https://www.remoteworlds.co/category/nomad-digital/" target="_blank">remote work</a>, <a href="https://www.remoteworlds.co/category/carti/" target="_blank">books</a>, <a href="https://www.remoteworlds.co/tag/singura-in-vacanta/" target="_blank">traveling solo</a>, <a href="https://www.remoteworlds.co/category/utile/interviuri/" target="_blank">interviews</a>, <a href="https://www.remoteworlds.co/tag/accident/" target="_blank">accidents</a></li>
-      <li>books I've written: <strong><a href="https://www.remoteworlds.co/produs/un-an-in-america-latina/" target="_blank">A Year in Latin America</a></strong> and <strong>Boda Boda Safari</strong> (<a href="https://www.remoteworlds.co/produs/boda-boda-safari-ebook/" target="_blank">ebook</a>, <a href="https://www.remoteworlds.co/produs/boda-boda-safari-print/" target="_blank">print</a>)</li>
+      <li>articles are also grouped by interest: <a href="https://www.1001calatorii.ro/tag/unesco/" target="_blank">UNESCO</a>, <a href="https://www.1001calatorii.ro/tag/munte/" target="_blank">mountains</a>, <a href="https://www.1001calatorii.ro/tag/plaje/" target="_blank">beaches</a>, <a href="https://www.1001calatorii.ro/tag/castele/" target="_blank">castles</a>, <a href="https://www.1001calatorii.ro/tag/bugete/" target="_blank">travel budgets</a>, <a href="https://www.1001calatorii.ro/category/nomad-digital/" target="_blank">remote work</a>, <a href="https://www.1001calatorii.ro/category/carti/" target="_blank">books</a>, <a href="https://www.1001calatorii.ro/tag/singura-in-vacanta/" target="_blank">traveling solo</a>, <a href="https://www.1001calatorii.ro/category/utile/interviuri/" target="_blank">interviews</a>, <a href="https://www.1001calatorii.ro/tag/accident/" target="_blank">accidents</a></li>
+      <li>books I've written: <strong><a href="https://www.1001calatorii.ro/produs/un-an-in-america-latina/" target="_blank">A Year in Latin America</a></strong> and <strong>Boda Boda Safari</strong> (<a href="https://www.1001calatorii.ro/produs/boda-boda-safari-ebook/" target="_blank">ebook</a>, <a href="https://www.1001calatorii.ro/produs/boda-boda-safari-print/" target="_blank">print</a>)</li>
     </ul>
-    <p>I have nearly 40 articles on <a href="https://www.remoteworlds.co/tag/bugete/" target="_blank">travel budgets</a> alone, covering what it actually cost me to spend a month in <strong>Costa Rica</strong>, <strong>Colombia</strong>, and other countries. If independent travel without an agency is your thing, that's where to look.</p>
+    <p>I have nearly 40 articles on <a href="https://www.1001calatorii.ro/tag/bugete/" target="_blank">travel budgets</a> alone, covering what it actually cost me to spend a month in <strong>Costa Rica</strong>, <strong>Colombia</strong>, and other countries. If independent travel without an agency is your thing, that's where to look.</p>
 
     <div class="article-img">
       <img src="https://lh3.googleusercontent.com/pw/AP1GczPSbGCi4tmAm4O1LuJNbLkNbjrZM2WOfl1fofFd_V_gphTZbSz0e_k4agxCNRsdLz8PbE-cjELOdAOI_Gd3Hnhp1bhyEXe8m1hDUJKrbaskSi3yfqhlFWgLVbM9CaaVmzTaylPArsDVXZCmkAvOvs8e5A=w1200-h800-s-no?authuser=0" alt="Accommodation in Sigiriya, Sri Lanka" loading="lazy" />
@@ -170,11 +180,11 @@
     <h3 id="standout">Some standout articles</h3>
     <p>My specialty, in a way, is <strong>Latin America</strong>, where I've done two long trips: in <strong>2021</strong> (a full year) and <strong>2023</strong> (five months). I've visited every country there except <strong>Venezuela</strong>, <strong>Suriname</strong>, and <strong>Guyana</strong> (which I'm planning to check off in <strong>2026</strong>).</p>
     <ul>
-      <li><a href="https://www.remoteworlds.co/category/america-de-sud/" target="_blank"><strong>South America</strong></a></li>
-      <li><a href="https://www.remoteworlds.co/category/america-de-nord/america-centrala/" target="_blank"><strong>Central America</strong></a></li>
-      <li><a href="https://www.remoteworlds.co/category/america-de-nord/caraibe/" target="_blank"><strong>Caribbean</strong></a></li>
+      <li><a href="https://www.1001calatorii.ro/category/america-de-sud/" target="_blank"><strong>South America</strong></a></li>
+      <li><a href="https://www.1001calatorii.ro/category/america-de-nord/america-centrala/" target="_blank"><strong>Central America</strong></a></li>
+      <li><a href="https://www.1001calatorii.ro/category/america-de-nord/caraibe/" target="_blank"><strong>Caribbean</strong></a></li>
     </ul>
-    <p>I have an article on <a href="/exotic-islands/">the most beautiful tropical islands in the world</a>, which I update regularly. And if mountains are your thing, I've done <a href="https://www.remoteworlds.co/pamir-highway/" target="_blank">Pamir Highway</a> in <strong>2024</strong>, <a href="https://www.remoteworlds.co/salkantay-trek/" target="_blank">Salkantay Trek</a> and <a href="https://www.remoteworlds.co/parcul-national-torres-del-paine/" target="_blank">Torres del Paine</a> in <strong>2021</strong>.</p>
+    <p>I have an article on the most beautiful tropical islands in the world, which I update regularly. And if mountains are your thing, I've done <a href="https://www.1001calatorii.ro/pamir-highway/" target="_blank">Pamir Highway</a> in <strong>2024</strong>, <a href="https://www.1001calatorii.ro/salkantay-trek/" target="_blank">Salkantay Trek</a> and <a href="https://www.1001calatorii.ro/parcul-national-torres-del-paine/" target="_blank">Torres del Paine</a> in <strong>2021</strong>.</p>
 
     <div class="article-img">
       <img src="https://lh3.googleusercontent.com/pw/AP1GczOqBXzZ7GOLfOHvVQ1CbJbp0ioXHLunwDG2qYWi-pdEnPe7p4srHNOZjuGer2jULnZwF3cpiPIBlm-1pnOMLr_tiKpQhxkxM8eRaBIvvGf3v_5yDQrg357yLGCL-SBt09tiFHJ2fWMYxJV_Wy3ay1pJBA=w1200-h800-s-no?authuser=0" alt="Saona Island, Dominican Republic" loading="lazy" />
@@ -182,9 +192,9 @@
     </div>
 
     <h2 id="what-sets-apart">What sets me apart (solo travel, 115 countries, unusual routes)</h2>
-    <p>I travel solo, mostly because it gives me freedom of movement and I can adapt fast when plans change. In <a href="https://www.remoteworlds.co/category/europa/romania/" target="_blank">Romania</a>, not many people can take off for months at a time; it's a small but growing community, since remote work isn't all that common or even desired by everyone.</p>
+    <p>I travel solo, mostly because it gives me freedom of movement and I can adapt fast when plans change. In <a href="https://www.1001calatorii.ro/category/europa/romania/" target="_blank">Romania</a>, not many people can take off for months at a time; it's a small but growing community, since remote work isn't all that common or even desired by everyone.</p>
     <p>Beyond that, I have a personal preference for long or unusual routes: a trip through <strong>Russia</strong> and the <strong>Baltic States</strong>, a circuit through the <strong>Balkans</strong>, a journey through <strong>Turkey</strong> and the <strong>Caucasus</strong>.</p>
-    <p>Probably my most well-known trip is the year I spent in <strong>Latin America</strong>, right in the middle of the pandemic, which I also wrote a <a href="https://www.remoteworlds.co/produs/un-an-in-america-latina/" target="_blank">book</a> about.</p>
+    <p>Probably my most well-known trip is the year I spent in <strong>Latin America</strong>, right in the middle of the pandemic, which I also wrote a <a href="https://www.1001calatorii.ro/produs/un-an-in-america-latina/" target="_blank">book</a> about.</p>
 
     <div class="article-img-center">
       <img src="https://www.1001calatorii.ro/wp-content/uploads/2023/08/CoverBook4-1.jpg" alt="A Year in Latin America" loading="lazy" />
@@ -208,7 +218,7 @@
     <p>For those who want to travel alone, I'd recommend starting with more familiar places (<strong>Europe</strong>) and working your way gradually toward places considered "dangerous" or very different. If you don't feel comfortable going somewhere, don't go.</p>
 
     <div class="article-img">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczOJlqmM5Q8hGpAs9wFYoshGw1NuE1j6o7Z192IXS40qUzIjTmjmmXD7R6S7Uqpb3XMiZuWDa6EVMwot2JXkuAX5xtPt1uuDEeYzD3b6y6M5_8KJiFhQHSANee0TDdKxTw7xTe_R5qcIAYEHfZfGPzOe5g=w1200-h800-s-no?authuser=0" alt="Khiva, Uzbekistan" loading="lazy" />
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczOJlqmM5Q8hGpAs9wFYoshGw1NuE1j6o7Z192IXS40qUzIjTmjmmXD7R6S7Uqpb3XMiZuWDa6EVMwot2JXkuAX5xtPt1uuDEeYzD3b6y6M5_8KJiFhQHSANee0TDdKxTw7xTe_R5qcIAYEBfZfGPzOe5g=w1200-h800-s-no?authuser=0" alt="Khiva, Uzbekistan" loading="lazy" />
       <div class="article-img-caption">In <strong>Khiva</strong>, <strong>Uzbekistan</strong>, two or three days before a serious car accident.</div>
     </div>
 
@@ -225,7 +235,7 @@
     <p>You just need to put a little thought into what combinations work on the ground, and there are plenty of platforms to help: from <em><a href="https://www.rome2rio.com" target="_blank">Rome2Rio</a></em> to <em>ChatGPT</em>.</p>
 
     <div class="article-img">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczMiCyVMRVHQ0EQW1Zn-O3VQVh2qsmR3FKGO3PWerEpz0gGGTQ2jKgzjOb4h3wXDj8JSiO8IH9SzOS_Qk8Xp9uaJWC0Ljfp9-5TlS4jUn5NCkPOVSoEFUrGFgVfoS3K_LA=w1200-h800-s-no?authuser=0" alt="Sete Cidades, Azores" loading="lazy" />
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczMiCyVMRVHQ0EQW1Zn-O3VQVh2qsmR3FKGO3PWerEpz0gGGTQ2jKgzjOb4h3wXDj8LSG5LS3s5WvpJopPFp7HrRXjDER7pIH9SzOS_Qk8Xp9uaJWC0Ljfp9-5TlS4jUn5NCkPOVSoEFUrGFgVfoS3K_LA=w1200-h800-s-no?authuser=0" alt="Sete Cidades, Azores" loading="lazy" />
       <div class="article-img-caption">Bus + hiking + walking to see <strong>Sete Cidades</strong> in the <strong>Azores</strong>, on my birthday.</div>
     </div>
 
@@ -235,20 +245,20 @@
     <p>Like in <strong>2024</strong>, when I was denied boarding to <strong>India</strong> while at the end of my <strong>Sri Lanka</strong> visa, and had to put together a completely different travel plan in a matter of hours, at night, at the airport in <strong>Colombo</strong>. Or when, boarding a train out of <strong>Tajikistan</strong>, I found out they wouldn't let me leave the country — I had one hour, until the train left, to sort it out with border guards who spoke Russian while I spoke English.</p>
 
     <div class="article-img">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczM2JJG3FINbyxMYm2NN8NwTsRswPwtqSzrFs06iV6_eLoxbxf8Wtrgba_PIYbUgsPBXO7DDx119ljNzARByLTgm6LKfH9XSqRMBtins-KnvBoSR1vfN4cDpPbtxE00XPG91OOQ_8psVVVQSLuq33xxSCQ=w1200-h800-s-no?authuser=0" alt="Kuala Lumpur, Malaysia" loading="lazy" />
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczM2JJG3FINbyxMYm2NN8NwTsRswPwtqSzrFs06iV6_eLoxbxf8Wtrgba_PIYbUgsPBXO7DDx119ljNzARByLTgm6LKfH9XSqRMBtins-KnvBoSR1vfN4cDpPbtxI00XPG91OOQ_8psVVVQSLuq33xxSCQ=w1200-h800-s-no?authuser=0" alt="Kuala Lumpur, Malaysia" loading="lazy" />
       <div class="article-img-caption">Instead of the planned <strong>Kerala</strong>, <strong>India</strong>, I ended up in <strong>Kuala Lumpur</strong>, <strong>Malaysia</strong>.</div>
     </div>
 
     <h3 id="accidents">Accidents happen</h3>
     <p>Because I'm a risky traveller, I've already been in a few accidents far from home:</p>
     <ul>
-      <li>in <strong>2022</strong> I was in a <a href="https://www.remoteworlds.co/traumatism-cranio-cerebral/" target="_blank">serious car accident</a> in <strong>Tashkent</strong>, one I barely survived, and spent 25 days in hospitals there</li>
-      <li>in <strong>2024</strong> I was in another car accident in <a href="https://www.remoteworlds.co/accident-cholpon-ata/" target="_blank">Kyrgyzstan</a>, involving a minibus and two semi-trucks (cinematic scene, but nobody was hurt)</li>
-      <li>in <strong>2025</strong> I broke my leg in <a href="https://www.remoteworlds.co/hawaii-usa-oahu/" target="_blank">Hawaii</a>, in the water, on a quiet beach (I had to fly back to <strong>Romania</strong> for surgery and an implant)</li>
+      <li>in <strong>2022</strong> I was in a <a href="https://www.1001calatorii.ro/traumatism-cranio-cerebral/" target="_blank">serious car accident</a> in <strong>Tashkent</strong>, one I barely survived, and spent 25 days in hospitals there</li>
+      <li>in <strong>2024</strong> I was in another car accident in <a href="https://www.1001calatorii.ro/accident-cholpon-ata/" target="_blank">Kyrgyzstan</a>, involving a minibus and two semi-trucks (cinematic scene, but nobody was hurt)</li>
+      <li>in <strong>2025</strong> I broke my leg in <a href="https://www.1001calatorii.ro/hawaii-usa-oahu/" target="_blank">Hawaii</a>, in the water, on a quiet beach (I had to fly back to <strong>Romania</strong> for surgery and an implant)</li>
     </ul>
 
     <div class="article-img">
-      <img src="https://lh3.googleusercontent.com/pw/AP1GczOmw12jC-tdDUfLHi-EMLy-clZnEGERdfK1VJWaa9-If0L1cupwqJH2SYTEii07cxHxz2uJj7IdZLimYbrF4v0K1xasb9EH93Ur0sHCaGck8TUbg=w1200-h531-s-no?authuser=2" alt="Hawaii, accident with a wave" loading="lazy" />
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczOmw12jC-tdDUfLHi-EMLy-clZnEGERdfK1VJWaa9-H2QpGB_cuJqoRzEO2Gbl3MsDCEdzay1o0yGko7JwWYI4pupwqJH2SYTEii07cxHxz2uJj7IdZLimYbrF4v0K1xasb9EH93Ur0sHCaGck8TUbg=w1200-h531-s-no?authuser=2" alt="Hawaii, accident with a wave" loading="lazy" />
       <div class="article-img-caption">Trips can end like this too. <strong>Hawaii</strong>, accident with a wave.</div>
     </div>
 
