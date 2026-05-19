@@ -11,224 +11,59 @@
     posthog.init('phc_y7Xqz2JQh2iAoCFkxgTEvp9C7MgqTP8LomTwDN3985rB', {
         api_host: 'https://eu.i.posthog.com',
         defaults: '2026-01-30',
-        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+        person_profiles: 'identified_only',
     })
-</script>
+  </script>
   <style>
-    /* ── ARTICLE-SPECIFIC STYLES ── */
-
-    .article-header {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 56px 36px 32px;
-    }
-    .article-cats {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 22px;
-      flex-wrap: wrap;
-    }
-    .article-cat {
-      font-size: 11px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--gold);
-      text-decoration: none;
-    }
+    .article-header { max-width: 780px; margin: 0 auto; padding: 56px 36px 32px; }
+    .article-cats { display: flex; align-items: center; gap: 10px; margin-bottom: 22px; flex-wrap: wrap; }
+    .article-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; text-decoration: none; }
     .article-cat:hover { text-decoration: underline; }
-    .article-cat-sep { font-size: 11px; color: var(--gold-50); }
-    .article-cat-line {
-      height: 1px;
-      width: 44px;
-      background: rgba(196,136,42,0.4);
-      flex-shrink: 0;
-    }
-    .article-title {
-      font-family: Georgia, serif;
-      font-size: 40px;
-      line-height: 1.18;
-      font-weight: normal;
-      color: var(--text);
-      margin-bottom: 24px;
-    }
-    .article-meta {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      font-size: 13px;
-      color: #999;
-    }
+    .article-cat-sep { font-size: 11px; color: rgba(196,136,42,0.5); }
+    .article-cat-line { height: 1px; width: 44px; background: rgba(196,136,42,0.4); flex-shrink: 0; }
+    .article-title { font-family: Georgia, serif; font-size: 40px; line-height: 1.18; font-weight: normal; color: #1A1A18; margin-bottom: 24px; }
+    .article-meta { display: flex; align-items: center; gap: 14px; font-size: 13px; color: #999; }
     .article-meta-author { color: #555; font-weight: 500; }
     .article-meta-dot { color: #ddd; }
-
-    .featured-image {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 0 36px;
-    }
-    .featured-image img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 4px;
-    }
-
-    .article-body {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 32px 36px 64px;
-    }
-    .article-body p {
-      font-size: 16px;
-      line-height: 1.82;
-      color: var(--text-body);
-      margin-bottom: 22px;
-    }
-    .article-body h2 {
-      font-family: Georgia, serif;
-      font-size: 26px;
-      font-weight: normal;
-      color: var(--text);
-      margin: 48px 0 18px;
-      line-height: 1.3;
-    }
-    .article-body h3 {
-      font-family: Georgia, serif;
-      font-size: 21px;
-      font-weight: normal;
-      color: var(--text);
-      margin: 38px 0 14px;
-      line-height: 1.3;
-    }
-    .article-body ul {
-      margin: 0 0 22px 22px;
-    }
-    .article-body ul li {
-      font-size: 16px;
-      line-height: 1.82;
-      color: var(--text-body);
-      margin-bottom: 8px;
-    }
-    .article-body a {
-      color: var(--gold);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-30);
-    }
-    .article-body a:hover { border-bottom-color: var(--gold); }
-    .article-body strong { font-weight: 600; color: var(--text); }
+    .featured-image { max-width: 780px; margin: 0 auto; padding: 0 36px; }
+    .featured-image img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .article-body { max-width: 780px; margin: 0 auto; padding: 32px 36px 64px; }
+    .article-body p { font-size: 16px; line-height: 1.82; color: #2A2A28; margin-bottom: 22px; }
+    .article-body h2 { font-family: Georgia, serif; font-size: 26px; font-weight: normal; color: #1A1A18; margin: 48px 0 18px; line-height: 1.3; }
+    .article-body h3 { font-family: Georgia, serif; font-size: 21px; font-weight: normal; color: #1A1A18; margin: 38px 0 14px; line-height: 1.3; }
+    .article-body ul { margin: 0 0 22px 22px; }
+    .article-body ul li { font-size: 16px; line-height: 1.82; color: #2A2A28; margin-bottom: 8px; }
+    .article-body a { color: #C4882A; text-decoration: none; border-bottom: 1px solid rgba(196,136,42,0.3); }
+    .article-body a:hover { border-bottom-color: #C4882A; }
+    .article-body strong { font-weight: 600; color: #1A1A18; }
     .article-body em { font-style: italic; }
-
     .article-img { margin: 36px 0 0; }
-    .article-img img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 4px;
-    }
-    .article-img-caption {
-      font-size: 12px;
-      color: #aaa;
-      margin-top: 9px;
-      line-height: 1.5;
-    }
-    .article-img-center {
-      margin: 36px auto 0;
-      text-align: center;
-    }
-    .article-img-center img {
-      max-width: 420px;
-      width: 100%;
-      height: auto;
-      border-radius: 4px;
-    }
-
-    .toc {
-      background: var(--bg-article);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 24px 28px;
-      margin: 28px 0 36px;
-    }
-    .toc-title {
-      font-size: 11px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #aaa;
-      margin-bottom: 16px;
-    }
+    .article-img img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .article-img-caption { font-size: 12px; color: #aaa; margin-top: 9px; line-height: 1.5; }
+    .article-img-center { margin: 36px auto 0; text-align: center; }
+    .article-img-center img { max-width: 420px; width: 100%; height: auto; border-radius: 4px; }
+    .toc { background: #faf9f6; border: 1px solid #E0DDD5; border-radius: 6px; padding: 24px 28px; margin: 28px 0 36px; }
+    .toc-title { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #aaa; margin-bottom: 16px; }
     .toc ol { margin: 0 0 0 18px; }
-    .toc ol li {
-      font-size: 14px;
-      line-height: 1.8;
-      color: #555;
-      margin-bottom: 3px;
-    }
-    .toc ol li a {
-      color: var(--gold);
-      text-decoration: none;
-      border-bottom: none;
-    }
+    .toc ol li { font-size: 14px; line-height: 1.8; color: #555; margin-bottom: 3px; }
+    .toc ol li a { color: #C4882A; text-decoration: none; border-bottom: none; }
     .toc ol li a:hover { text-decoration: underline; }
     .toc ol ol { margin: 4px 0 4px 18px; }
     .toc ol ol li { font-size: 13px; color: #777; }
 
-    .related-section {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 0 36px 52px;
-      border-top: 1px solid var(--border);
-    }
-    .related-title {
-      padding-top: 36px;
-      font-size: 10px;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-      color: #bbb;
-      margin-bottom: 24px;
-    }
-    .related-card {
-      display: grid;
-      grid-template-columns: 160px 1fr 28px;
-      align-items: center;
-      gap: 20px;
-      padding: 22px 0;
-      border-top: 1px solid var(--border);
-      text-decoration: none;
-    }
-    .related-card:last-child { border-bottom: 1px solid var(--border); }
-    .related-img {
-      height: 112px;
-      border-radius: 4px;
-      background-size: cover;
-      background-position: center;
-      background-color: #f0ede6;
-    }
-    .related-cat-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-      flex-wrap: wrap;
-    }
-    .related-cat {
-      font-size: 10px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--gold);
-    }
-    .related-cat-sep { font-size: 10px; color: rgba(196,136,42,0.4); }
-    .related-cat-line { height: 1px; width: 28px; background: rgba(196,136,42,0.35); flex-shrink: 0; }
-    .related-card-title {
-      font-family: Georgia, serif;
-      font-size: 17px;
-      font-weight: normal;
-      color: var(--text);
-      line-height: 1.35;
-      margin-bottom: 8px;
-    }
-    .related-meta { font-size: 11px; color: #bbb; }
-    .related-arrow { font-size: 18px; color: #ddd; }
+    /* START HERE */
+    .start-here { max-width: 780px; margin: 0 auto; padding: 0 36px 52px; border-top: 1px solid #E0DDD5; }
+    .start-here-title { padding-top: 36px; font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: #bbb; margin-bottom: 24px; }
+    .start-card { display: grid; grid-template-columns: 160px 1fr 28px; align-items: center; gap: 20px; padding: 22px 0; border-top: 1px solid #E0DDD5; text-decoration: none; }
+    .start-card:last-child { border-bottom: 1px solid #E0DDD5; }
+    .start-img { height: 112px; border-radius: 4px; background-size: cover; background-position: center; background-color: #f0ede6; }
+    .start-cat-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+    .start-cat { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #C4882A; }
+    .start-cat-sep { font-size: 10px; color: rgba(196,136,42,0.4); }
+    .start-cat-line { height: 1px; width: 28px; background: rgba(196,136,42,0.35); flex-shrink: 0; }
+    .start-card-title { font-family: Georgia, serif; font-size: 17px; font-weight: normal; color: #1A1A18; line-height: 1.35; margin-bottom: 8px; }
+    .start-meta { font-size: 11px; color: #bbb; }
+    .start-arrow { font-size: 18px; color: #ddd; }
   </style>
 </head>
 <body>
@@ -247,12 +82,12 @@
       <a href="/remote-work">remote work</a>
       <a href="/about">about</a>
     </div>
-    <svg class="rw-nav-search" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
   </nav>
 
   <header class="article-header">
     <div class="article-cats">
-      <a href="/useful-travel-tips" class="article-cat">Useful travel tips</a>
+      <a href="/useful-travel-tips/" class="article-cat">Useful travel tips</a>
       <div class="article-cat-line"></div>
     </div>
     <h1 class="article-title">A different kind of travel blog: solo, car-free, working from anywhere</h1>
@@ -337,7 +172,7 @@
       <li><a href="https://www.remoteworlds.co/category/america-de-nord/america-centrala/" target="_blank"><strong>Central America</strong></a></li>
       <li><a href="https://www.remoteworlds.co/category/america-de-nord/caraibe/" target="_blank"><strong>Caribbean</strong></a></li>
     </ul>
-    <p>I have an article on <a href="https://www.remoteworlds.co/cele-mai-frumoase-insule-exotice-din-lume/" target="_blank">the most beautiful tropical islands in the world</a>, which I update regularly. And if mountains are your thing, I've done <a href="https://www.remoteworlds.co/pamir-highway/" target="_blank">Pamir Highway</a> in <strong>2024</strong>, <a href="https://www.remoteworlds.co/salkantay-trek/" target="_blank">Salkantay Trek</a> and <a href="https://www.remoteworlds.co/parcul-national-torres-del-paine/" target="_blank">Torres del Paine</a> in <strong>2021</strong>.</p>
+    <p>I have an article on <a href="/exotic-islands/">the most beautiful tropical islands in the world</a>, which I update regularly. And if mountains are your thing, I've done <a href="https://www.remoteworlds.co/pamir-highway/" target="_blank">Pamir Highway</a> in <strong>2024</strong>, <a href="https://www.remoteworlds.co/salkantay-trek/" target="_blank">Salkantay Trek</a> and <a href="https://www.remoteworlds.co/parcul-national-torres-del-paine/" target="_blank">Torres del Paine</a> in <strong>2021</strong>.</p>
 
     <div class="article-img">
       <img src="https://lh3.googleusercontent.com/pw/AP1GczOqBXzZ7GOLfOHvVQ1CbJbp0ioXHLunwDG2qYWi-pdEnPe7p4srHNOZjuGer2jULnZwF3cpiPIBlm-1pnOMLr_tiKpQhxkxM8eRaBIvvGf3v_5yDQrg357yLGCL-SBt09tiFHJ2fWMYxJV_Wy3ay1pJBA=w1200-h800-s-no?authuser=0" alt="Saona Island, Dominican Republic" loading="lazy" />
@@ -420,56 +255,55 @@
 
   </div>
 
-  <div class="related-section">
-    <div class="related-title">You might also like</div>
+  <!-- START HERE -->
+  <div class="start-here">
+    <div class="start-here-title">Start here</div>
 
-    <a href="/exotic-islands" class="related-card">
-      <div class="related-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2024/11/VacanteExotice.webp');"></div>
+    <a href="/solo-travel-blog/" class="start-card">
+      <div class="start-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2021/02/Medellin21.webp');"></div>
       <div>
-        <div class="related-cat-row">
-          <span class="related-cat">Africa</span>
-          <span class="related-cat-sep">·</span>
-          <span class="related-cat">North America</span>
-          <span class="related-cat-sep">·</span>
-          <span class="related-cat">Asia</span>
-          <div class="related-cat-line"></div>
+        <div class="start-cat-row">
+          <span class="start-cat">Useful travel tips</span>
+          <div class="start-cat-line"></div>
         </div>
-        <div class="related-card-title">The most beautiful exotic islands in the world, seen through my own eyes</div>
-        <div class="related-meta">9 min read</div>
+        <div class="start-card-title">A different kind of travel blog: solo, car-free, working from anywhere</div>
+        <div class="start-meta">8 min read</div>
       </div>
-      <span class="related-arrow">→</span>
+      <span class="start-arrow">→</span>
     </a>
 
-    <a href="/mountain-trails" class="related-card">
-      <div class="related-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2025/07/Laugavegur04.webp');"></div>
+    <a href="/exotic-islands/" class="start-card">
+      <div class="start-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2024/11/VacanteExotice.webp');"></div>
       <div>
-        <div class="related-cat-row">
-          <span class="related-cat">Oceania</span>
-          <span class="related-cat-sep">·</span>
-          <span class="related-cat">South America</span>
-          <span class="related-cat-sep">·</span>
-          <span class="related-cat">Europe</span>
-          <div class="related-cat-line"></div>
+        <div class="start-cat-row">
+          <span class="start-cat">Africa</span>
+          <span class="start-cat-sep">·</span>
+          <span class="start-cat">North America</span>
+          <span class="start-cat-sep">·</span>
+          <span class="start-cat">Asia</span>
+          <div class="start-cat-line"></div>
         </div>
-        <div class="related-card-title">The most beautiful mountain trails in the world: peaks and views that take your breath away</div>
-        <div class="related-meta">10 min read</div>
+        <div class="start-card-title">The most beautiful exotic islands in the world, seen through my own eyes</div>
+        <div class="start-meta">9 min read</div>
       </div>
-      <span class="related-arrow">→</span>
+      <span class="start-arrow">→</span>
     </a>
 
-    <a href="/mardin-mesopotamia" class="related-card">
-      <div class="related-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2024/06/Mardin17.webp');"></div>
+    <a href="/best-hikes/" class="start-card">
+      <div class="start-img" style="background-image: url('https://www.1001calatorii.ro/wp-content/uploads/2025/07/Laugavegur04.webp');"></div>
       <div>
-        <div class="related-cat-row">
-          <span class="related-cat">Turkey</span>
-          <span class="related-cat-sep">·</span>
-          <span class="related-cat">Europe</span>
-          <div class="related-cat-line"></div>
+        <div class="start-cat-row">
+          <span class="start-cat">Oceania</span>
+          <span class="start-cat-sep">·</span>
+          <span class="start-cat">South America</span>
+          <span class="start-cat-sep">·</span>
+          <span class="start-cat">Europe</span>
+          <div class="start-cat-line"></div>
         </div>
-        <div class="related-card-title">Mardin, in ancient Mesopotamia</div>
-        <div class="related-meta">8 min read</div>
+        <div class="start-card-title">The best hikes in the world, from my own experience</div>
+        <div class="start-meta">10 min read</div>
       </div>
-      <span class="related-arrow">→</span>
+      <span class="start-arrow">→</span>
     </a>
   </div>
 
