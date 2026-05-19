@@ -27,7 +27,8 @@
 
 body {
   background: var(--bg-page);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 17px;
 }
 
 .rw-wrapper {
