@@ -1,0 +1,187 @@
+/* ============================================
+   REMOTE WORLDS — shared styles
+   assets/style.css
+   ============================================ */
+
+/* RESET & BASE */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --gold: #C4882A;
+  --gold-70: rgba(196,136,42,0.72);
+  --gold-50: rgba(196,136,42,0.5);
+  --gold-30: rgba(196,136,42,0.3);
+  --gold-18: rgba(196,136,42,0.18);
+  --gold-border: rgba(196,136,42,0.35);
+  --white: #FFFFFF;
+  --white-70: rgba(255,255,255,0.72);
+  --white-50: rgba(255,255,255,0.5);
+  --white-25: rgba(255,255,255,0.22);
+  --text: #1A1A18;
+  --text-body: #2A2A28;
+  --text-muted: #6B6860;
+  --border: #E0DDD5;
+  --bg-page: #f5f4f0;
+  --bg-article: #faf9f6;
+  --dark: #1A1814;
+}
+
+body {
+  background: var(--bg-page);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--text);
+}
+
+/* WRAPPER */
+.rw-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--white);
+  box-shadow: 0 2px 40px rgba(0,0,0,0.12);
+}
+
+/* ── NAV ── */
+.rw-nav {
+  display: flex;
+  align-items: center;
+  padding: 0 36px;
+  height: 64px;
+  background: var(--gold);
+  border-bottom: 1px solid var(--white-25);
+}
+.rw-logo {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--white);
+  white-space: nowrap;
+  margin-right: 32px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.rw-navlinks {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--white-70);
+}
+.rw-navlinks a {
+  color: inherit;
+  text-decoration: none;
+}
+.rw-navlinks a:hover { color: var(--white); }
+
+/* NAV search icon */
+.rw-nav-search {
+  flex-shrink: 0;
+}
+
+/* ── TAG ROWS (used on homepage + articles) ── */
+.tag-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white-70);
+}
+.tag-sep { font-size: 10px; color: var(--white-50); }
+.tag-line {
+  height: 1px;
+  width: 40px;
+  background: var(--white-50);
+  flex-shrink: 0;
+}
+
+/* Dark variant (white section, articles) */
+.tag-row--dark .tag { color: var(--text-muted); }
+.tag-row--dark .tag-sep { color: #C8C3B8; }
+.tag-row--dark .tag-line { background: #D0CCC4; }
+
+/* ── FOOTER ── */
+.rw-footer {
+  background: var(--dark);
+  padding: 44px 36px 28px;
+}
+.rw-footer-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 44px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 24px;
+}
+.rw-footer-logo {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  color: var(--white);
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.rw-footer-tagline {
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+.rw-footer-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  background: var(--gold-18);
+  border: 0.5px solid var(--gold-border);
+  border-radius: 4px;
+  padding: 9px 15px;
+}
+.rw-footer-stat-num {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  color: var(--gold);
+  font-weight: normal;
+}
+.rw-footer-stat-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(196,136,42,0.75);
+}
+.rw-footer-col-title {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  margin-bottom: 14px;
+}
+.rw-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.rw-footer-link {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+}
+.rw-footer-link:hover { color: rgba(255,255,255,0.8); }
+.rw-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rw-footer-copy { font-size: 11px; color: rgba(255,255,255,0.2); }
+.rw-footer-social { display: flex; gap: 16px; }
+.rw-footer-social a {
+  color: rgba(255,255,255,0.3);
+  text-decoration: none;
+  font-size: 16px;
+}
+.rw-footer-social a:hover { color: rgba(255,255,255,0.7); }
