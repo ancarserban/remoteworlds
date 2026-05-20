@@ -10,18 +10,27 @@ draft: false
 ---
 
 <div class="article-body">
-<strong>Saida</strong>, known in English as <strong>Sidon</strong>, is one of the oldest continuously inhabited cities in the world. Located on the <strong>Mediterranean</strong> coast about 40 km south of <strong>Beirut</strong>, <strong>Saida</strong> in south <strong>Lebanon</strong> sits in a region that feels noticeably different from the capital and the Christian north. If you want to see something beyond <strong>Beirut</strong> — beyond the elegant <strong>Byblos</strong> and <strong>Batroun</strong> — you can head to <strong>Saida</strong> (<strong>Sidon</strong> in English, or <strong>Sidon Lebanon</strong> as it appears in most historical sources) or to <strong>Tyre</strong>, both on the <strong>Mediterranean</strong> coast. The difference is that this area is home to <strong>Hezbollah</strong> sympathizers, and the atmosphere is noticeably different from the Christian region north of the capital.
+<strong>Saida</strong>, known in English as <strong>Sidon</strong>, is one of the oldest continuously inhabited cities in the world. Located on the <strong>Mediterranean</strong> coast about 40 km south of <strong>Beirut</strong>, <strong>Saida</strong> in south <strong>Lebanon</strong> sits in a region that feels noticeably different from the capital and the Christian north. 
+
+If you want to see something beyond <strong>Beirut</strong> — beyond the elegant <strong>Byblos</strong> and <strong>Batroun</strong> — you can head to <strong>Saida</strong> (<strong>Sidon</strong> in English, or <strong>Sidon Lebanon</strong> as it appears in most historical sources) or to <strong>Tyre</strong>, both on the <strong>Mediterranean</strong> coast. The difference is that this area is home to <strong>Hezbollah</strong> sympathizers, and the atmosphere is noticeably different from the Christian region north of the capital.
 <h2>Beirut - Sidon Lebanon</h2>
 From <strong>Beirut</strong>, getting to <strong>Sidon</strong> is easy — take the local minibuses from the <em><a href="https://maps.app.goo.gl/FTEJDAcSo8BF89YQ9" target="_blank">Cola intersection</a></em>, the city's informal main bus hub, and ask for <strong>Saida</strong>.
 As soon as you leave, you'll notice the difference from the north: trash everywhere. That part of <strong>Beirut</strong> looks the same — plastic bottles tossed from cars, scattered along the roads, never picked up by anyone.
+
 When you arrive in <strong>Sidon</strong>, it's more of the same — trash on the beach, trash in the streets, trash everywhere. Plastic bags floating in the water next to the Crusader castle, just to remind you where you are.
 <h2>Saida Sea Castle (Sidon Sea Castle)</h2>
 The <strong>Saida Sea Castle</strong>, also known as the <strong><a href="https://en.wikipedia.org/wiki/Sidon_Sea_Castle" target="_blank">Sidon Sea Castle</a></strong>, is small and has an unusual silhouette. It was built right at the water's edge — the best possible position — even if it no longer guards anything now except the arrival of tourists.
+
 It was constructed in 1228 AD by the <strong>Knights of the Order of Saint John</strong> (<em>Hospitallers</em>) to control the coastline, defend the port of <strong>Sidon</strong>, and prevent seaborne raids.
+
 In 1291, when the <strong>Mamluks</strong> from <strong>Egypt</strong> conquered much of the <strong>Crusader</strong> territories, they partially destroyed the castle to prevent Christians from reclaiming control of the coast. Later, under <strong>Mamluk</strong> rule and during the <strong>Ottoman</strong> period, repairs and additions were made. In the 17th century, local rulers like <strong>Fakhr al-Din II</strong> restored sections of the castle.
+
 Because the small castle sits on a tiny islet very close to shore, in the port of <strong>Sidon</strong>, a causeway of approximately 80 meters was built across the water from the shore to the fortification.
+
 Before the medieval construction, the site had been home to Phoenician temples dedicated to local deities like <strong>Melqart</strong>.
+
 The castle is now a tourist attraction: you pay a <strong>$3 USD</strong> entry fee and walk around, including along the walls. It offers some nice views of the city, but I'd recommend stopping at the nearby restaurant as well.
+
 <strong>Useful info</strong>: entry fee is <strong>$3 USD</strong>, cash only.
 </div>
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczOvzL5A-qILZP4sbhhT5f7iu9r_PePwla4BwvcCEfnG95sEbvTzTrHySyU8usCJ39P6NE4tL5gXXTdwaQDP6kce-EBcgARF_S4TDPSv4CJJ1HoqU44z0avp5MuSWfibZpy7EwgqShCeQWd1vU0JfH8q=w1200-h800-s-no?authuser=2" alt="Sidon Liban" loading="lazy" /></div>
