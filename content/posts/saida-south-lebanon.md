@@ -8,6 +8,7 @@ read_time: "11 min read"
 author: "Anca"
 draft: false
 ---
+<div class="article-body">
 
 Saida, known in English as Sidon, is one of the oldest continuously inhabited cities in the world. Located on the Mediterranean coast about 40 km south of Beirut, Saida in south Lebanon sits in a region that feels noticeably different from the capital and the Christian north. If you want to see something beyond <strong>Beirut</strong> — beyond the elegant <strong><a href="https://www.1001calatorii.ro/byblos-liban/" target="_blank">Byblos</a></strong> and <strong><a href="https://www.1001calatorii.ro/batroun-lebanon/" target="_blank">Batroun</a></strong> — you can head to <strong>Saida</strong> (<strong>Sidon</strong> in English, or <strong>Sidon Lebanon</strong> as it appears in most historical sources) or to <strong>Tyre</strong>, both on the <strong>Mediterranean</strong> coast. The difference is that this area is home to <strong>Hezbollah</strong> sympathizers, and the atmosphere is noticeably different from the Christian region north of the capital.
 
@@ -100,3 +101,4 @@ Most visitors come to Saida as a day trip from Beirut, which makes sense given t
 You can get to <strong>Saida</strong> by public transport. From the <strong><a href="https://maps.app.goo.gl/FTEJDAcSo8BF89YQ9" target="_blank">Cola intersection</a></strong> in <strong>Beirut</strong> there are frequent minibuses heading there and further on to <strong>Tyre</strong>. The fare is $1.50 or $2 USD depending on the operator.
 
 A few hours are enough to see <strong>Saida</strong> — if you set out early, you'll have time for <strong>Tyre</strong> as well.
+</div>
