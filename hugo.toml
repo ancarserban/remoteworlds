@@ -8,3 +8,4 @@ title = "remote worlds"
       unsafe = true
 [taxonomies]
   category = "categories"
+paginate = 10

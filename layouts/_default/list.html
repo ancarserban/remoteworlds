@@ -1,0 +1,41 @@
+{{ define "head" }}
+<style>
+.rw-archive{max-width:975px;margin:0 auto;padding:48px 36px}
+.rw-archive-header{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:#6B6860;padding-bottom:20px;border-bottom:1px solid #E0DDD5;margin-bottom:28px}
+.pagination{display:flex;gap:8px;justify-content:center;padding:48px 0;font-family:system-ui,sans-serif}
+.pagination a,.pagination span{padding:8px 14px;border:1px solid #E0DDD5;border-radius:4px;text-decoration:none;color:#6B6860;font-size:14px}
+.pagination .active{background:#C4882A;border-color:#C4882A;color:#fff}
+</style>
+{{ end }}
+{{ define "main" }}
+<div class="rw-archive">
+  <div class="rw-archive-header">All articles</div>
+  <div class="rw-grid">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="rw-grid-card">
+      <div class="rw-grid-img" style="background-image:url('{{ .Params.featured_image | safeURL }}');"></div>
+      <div class="rw-grid-body">
+        <div class="rw-grid-tag-row">
+          {{ range .Params.categories }}<span class="rw-grid-tag">{{ . }}</span><span class="rw-grid-tag-sep">·</span>{{ end }}
+          <div class="rw-grid-tag-line"></div>
+        </div>
+        <h2 class="rw-grid-title">{{ .Title }}</h2>
+        <p class="rw-grid-sub">{{ .Description }}</p>
+        <div class="rw-meta-dark">{{ .Params.read_time }}</div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ $p := .Paginator }}
+  {{ if gt $p.TotalPages 1 }}
+  <div class="pagination">
+    {{ if $p.HasPrev }}<a href="{{ $p.Prev.URL }}">←</a>{{ end }}
+    {{ range $p.Pagers }}
+      {{ if eq . $p }}<span class="active">{{ .PageNumber }}</span>
+      {{ else }}<a href="{{ .URL }}">{{ .PageNumber }}</a>{{ end }}
+    {{ end }}
+    {{ if $p.HasNext }}<a href="{{ $p.Next.URL }}">→</a>{{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
