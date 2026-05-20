@@ -1,8 +1,54 @@
+{{ define "head" }}
+<style>
+.article-header{max-width:780px;margin:0 auto;padding:56px 36px 32px}
+.article-cats{display:flex;align-items:center;gap:10px;margin-bottom:22px;flex-wrap:wrap}
+.article-cat{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#C4882A;text-decoration:none;font-family:system-ui,sans-serif}
+.article-cat:hover{text-decoration:underline}
+.article-cat-sep{font-size:11px;color:rgba(196,136,42,.5)}
+.article-cat-line{height:1px;width:44px;background:rgba(196,136,42,.4);flex-shrink:0}
+.article-title{font-family:system-ui,sans-serif;font-size:40px;line-height:1.15;font-weight:700;color:#1A1A18;margin-bottom:24px}
+.article-meta{display:flex;align-items:center;gap:14px;font-size:13px;color:#999;font-family:system-ui,sans-serif}
+.article-meta-author{color:#555;font-weight:500}
+.article-meta-dot{color:#ddd}
+.featured-image{max-width:975px;margin:0 auto;padding:0 36px}
+.featured-image img{width:100%;height:550px;object-fit:cover;display:block;border-radius:4px}
+.article-img{max-width:975px;margin:36px auto 0;padding:0 36px}
+.article-img img{width:100%;height:550px;object-fit:cover;display:block;border-radius:4px}
+.article-img-v{max-width:420px;margin:36px auto 0;padding:0 36px}
+.article-img-v img{width:100%;height:auto;display:block;border-radius:4px}
+.article-body{max-width:780px;margin:0 auto;padding:32px 36px 0;font-family:system-ui,sans-serif}
+.article-body p{font-size:17px;line-height:1.82;color:#2A2A28;margin-bottom:22px}
+.article-body h2{font-size:31px;font-weight:600;color:#1A1A18;margin:48px 0 18px;line-height:1.25}
+.article-body h3{font-size:25px;font-weight:600;color:#1A1A18;margin:38px 0 14px;line-height:1.3}
+.article-body h4{font-size:22px;font-weight:600;color:#1A1A18;margin:32px 0 12px;line-height:1.3}
+.article-body ul{margin:0 0 22px 22px}
+.article-body ul li{font-size:17px;line-height:1.82;color:#2A2A28;margin-bottom:8px}
+.article-body a{color:#C4882A;text-decoration:none;border-bottom:1px solid rgba(196,136,42,.3)}
+.article-body a:hover{border-bottom-color:#C4882A}
+.article-body strong{font-weight:600;color:#1A1A18}
+.toc{background:#faf9f6;border:1px solid #E0DDD5;border-radius:6px;padding:24px 28px;margin:28px 0 36px}
+.toc-title{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#aaa;margin-bottom:16px}
+.toc ol{margin:0 0 0 18px}
+.toc ol li{font-size:14px;line-height:1.8;color:#555;margin-bottom:3px}
+.toc ol li a{color:#C4882A;text-decoration:none;border-bottom:none}
+.toc ol ol{margin:4px 0 4px 18px}
+.toc ol ol li{font-size:13px;color:#777}
+.start-here{max-width:780px;margin:0 auto;padding:0 36px 52px;border-top:1px solid #E0DDD5}
+.start-here-title{padding-top:36px;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:#bbb;margin-bottom:24px;font-family:system-ui,sans-serif}
+.start-card{display:grid;grid-template-columns:160px 1fr 28px;align-items:center;gap:20px;padding:22px 0;border-top:1px solid #E0DDD5;text-decoration:none}
+.start-card:last-child{border-bottom:1px solid #E0DDD5}
+.start-img{height:112px;border-radius:4px;background-size:cover;background-position:center;background-color:#f0ede6}
+.start-cat{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#C4882A;font-family:system-ui,sans-serif}
+.start-card-title{font-family:Georgia,serif;font-size:17px;font-weight:normal;color:#1A1A18;line-height:1.35;margin-bottom:8px}
+.start-meta{font-size:11px;color:#bbb;font-family:system-ui,sans-serif}
+.start-arrow{font-size:18px;color:#ddd}
+</style>
+{{ end }}
 {{ define "main" }}
 <header class="article-header">
   <div class="article-cats">
     {{ range .Params.categories }}
-    <a href="/{{ . | urlize }}/" class="article-cat">{{ . | safeURL }}</a>
+    <a href="/{{ . | urlize }}/" class="article-cat">{{ . }}</a>
     <span class="article-cat-sep">·</span>
     {{ end }}
     <div class="article-cat-line"></div>
@@ -16,7 +62,7 @@
     <span>{{ .Params.read_time }}</span>
   </div>
 </header>
-{{ with .Params.featured_image | safeURL }}
+{{ with .Params.featured_image }}
 <div class="featured-image">
   <img src="{{ . | safeURL }}" alt="{{ $.Title }}">
 </div>
