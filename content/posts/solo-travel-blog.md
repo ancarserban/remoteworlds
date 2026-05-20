@@ -79,7 +79,7 @@ draft: false
     <p>I travel solo, mostly because it gives me freedom of movement and I can adapt fast when plans change. In Romania, not many people can take off for months at a time; it's a small but growing community, since remote work isn't all that common or even desired by everyone.</p>
     <p>Beyond that, I have a personal preference for long or unusual routes: a trip through <strong>Russia</strong> and the <strong>Baltic States</strong>, a circuit through the <strong>Balkans</strong>, a journey through <strong>Turkey</strong> and the <strong>Caucasus</strong>.</p>
     <p>Probably my most well-known trip is the year I spent in <strong>Latin America</strong>, right in the middle of the pandemic, which I also wrote a book about.</p>
-    <div class="article-img-center">
+    <div class="article-img-v">
       <img src="https://www.1001calatorii.ro/wp-content/uploads/2023/08/CoverBook4-1.jpg" alt="A Year in Latin America" loading="lazy" />
     </div>
   </div>
@@ -90,7 +90,7 @@ draft: false
     <p>If you made travel plans with a friend and she backs out at the last second and you cry about your ruined summer... that's the situation you built for yourself.</p>
     <p>That's actually how I started traveling solo: I got tired of other people's promises and stopped waiting. Traveling isn't hard. The hard part is working up the courage.</p>
   </div>
-  <div class="article-img">
+ <div class="article-img">
     <img src="https://lh3.googleusercontent.com/pw/AP1GczPFsaaapvE4PtF-Y7l_Of2WqkqUd9QyDMqNDSLaunPYDCBRNC70sOKY_awH2cADppXDGyDX7WLwRPMbbjOyPak2-zKadu-eXGKWiMhot6QtEM-4Y2WhPkSFK4ilbvSYKRra7z8Dc3H5I2OkZwMPWuY6KA=w1200-h800-s-no?authuser=0" alt="Barichara, Colombia" loading="lazy" />
   </div>
   <div class="article-img-caption"><strong>Barichara</strong>, <strong>Colombia</strong>, the country of sicarios and good coffee.</div>
