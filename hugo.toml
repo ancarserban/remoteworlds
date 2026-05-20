@@ -6,3 +6,5 @@ title = "remote worlds"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[taxonomies]
+  category = "categories"

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div style="max-width:975px;margin:0 auto;padding:48px 36px">
+  <h1 style="font-family:Georgia,serif;font-size:36px;font-weight:normal;margin-bottom:36px">{{ .Title }}</h1>
+  <div class="rw-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="rw-grid-card">
+      <div class="rw-grid-img" style="background-image:url('{{ .Params.featured_image | safeURL }}');"></div>
+      <div class="rw-grid-body">
+        <h2 class="rw-grid-title">{{ .Title }}</h2>
+        <p class="rw-grid-sub">{{ .Description }}</p>
+        <div class="rw-meta-dark">{{ .Params.read_time }}</div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
