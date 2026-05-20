@@ -2,7 +2,7 @@
 title: "Best Tropical Islands to Visit: 30+ Places I've Actually Been To"
 date: 2024-11-27
 description: "The best tropical islands to visit, from a traveler who's been to every single one — solo, no agency, no stock photos. Hawaii to Comoros, Seychelles to Galapagos."
-categories: ["Asia", "Africa", "Caribbean", "South America"]
+categories: ["Asia", "Africa", "Caribbean", "Americas"]
 featured_image: "https://lh3.googleusercontent.com/pw/AP1GczOqBXzZ7GOLfOHvVQ1CbJbp0ioXHLunwDG2qYWi-pdEnPe7p4srHNOZjuGer2jULnZwF3cpiPIBlm-1p3OMLr_tiKpQhxkxM8eRaBIvvGf3v_5yDQrg357yLGCL-sBTn09tiFHJ2fMYxJV_Wy3ay1pJBA=w1200-h800-s-no?authuser=0"
 read_time: "9 min read"
 author: "Anca"
