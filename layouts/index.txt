@@ -1,0 +1,21 @@
+{{ define "head" }} {{ end }} {{ define "main" }}
+USEFUL TRAVEL TIPS
+
+A different kind of travel blog: solo, car-free, working from anywhere
+I travel alone, backpack on, no car and no agencies, working remotely from every corner of the world â€” and I write about all of it here.
+19 May 2026  Â·  8 min read
+Read article â†’
+
+LATEST ARTICLES
+{{ range first 6 (where .Site.RegularPages "Type" "posts") }}
+
+{{ range .Params.categories }}
+{{ . }}
+Â·
+{{ end }}
+
+{{ .Title }}
+{{ .Description }}
+{{ .Date.Format "2 Jan 2006" }}
+{{ end }}
+{{ end }}
