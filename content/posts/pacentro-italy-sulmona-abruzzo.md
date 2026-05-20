@@ -1,0 +1,129 @@
+---
+title: "Pacentro & Sulmona, Italy: A Travel Guide to Abruzzo"
+date: 2026-05-01
+description: "Two of Abruzzo's most beautiful towns, side by side. Medieval Pacentro, Sulmona's confetti streets, and why this corner of Italy is worth the detour."
+categories: ["Italy", "Europe"]
+featured_image: "https://lh3.googleusercontent.com/pw/AP1GczO2f05-aonfD74tHoy8nXEuFep91kT-oST1W6eNgCbUGeLFLQi5MIglvqiJ3DRaJ6hCShz0oVqjyIWXNGOAW2XQKnFEQXO6G6UMKn93vde07Q5kuDpaCCQVmd0U2npOcaR8CGnpGXhmtOtTWXzy66_B=w1200-h800-s-no-gm?authuser=2"
+read_time: "15 min read"
+author: "Anca"
+draft: false
+---
+
+
+<div class="article-body">
+    <p>I arrived in <strong>Abruzzo</strong>, <strong>Italy</strong>, with only two days to spare and a list of medieval villages too long to cover entirely. At the last minute I settled on <strong>Pacentro</strong> and <strong>Sulmona</strong>, two stops that connect well by public transport if you plan the buses and trains carefully.</p>
+    <div class="toc">
+      <div class="toc-title">Contents</div>
+      <ol>
+        <li><a href="#pacentro">Pacentro</a>
+          <ol>
+            <li><a href="#castello-caldora">Castello Caldora</a></li>
+            <li><a href="#belvedere">Belvedere Pacentro</a></li>
+            <li><a href="#canali">I Canali, the old public washhouse</a></li>
+            <li><a href="#preta-tonna">Preta Tonna</a></li>
+            <li><a href="#historic-centre">The historic centre of Pacentro</a></li>
+            <li><a href="#things-pacentro">Things to do in Pacentro</a></li>
+            <li><a href="#how-to-get">How to get to Pacentro</a></li>
+          </ol>
+        </li>
+        <li><a href="#sulmona">Sulmona</a>
+          <ol>
+            <li><a href="#things-sulmona">Things to do in Sulmona</a></li>
+          </ol>
+        </li>
+        <li><a href="#how-to-visit">How to visit Sulmona and Pacentro</a></li>
+        <li><a href="#accommodation">Accommodation in Abruzzo</a></li>
+      </ol>
+    </div>
+    <h2 id="pacentro">Pacentro</h2>
+    <p><strong>Pacentro</strong> is a medieval village on the slopes of <strong>Monte Morrone</strong>, in the <strong>Parco Nazionale della Majella</strong>, in <strong>Abruzzo</strong>, <strong>Italy</strong>. It's famous for two things: three old towers visible from a distance, and the fact that <strong>Madonna</strong>'s grandfather, <strong>Gaetano Ciccone</strong>, left from here for the <strong>United States</strong> at the beginning of the 20th century. I'd never really thought about the singer's origins, but this little medieval village is genuinely lovely and deserves more than a single biographical footnote.</p>
+    <p>Another American connection: former US Secretary of State <strong>Mike Pompeo</strong> has ancestral roots in <strong>Pacentro</strong>. His family emigrated to the <strong>United States</strong> in the early 20th century, the same wave that brought many families from this part of <strong>Abruzzo</strong> across the <strong>Atlantic</strong>.</p>
+    <p>My plane landed around 8 in the morning in <strong>Pescara</strong> and the whole schedule worked out well with the visit, so I had enough time for a bus, a train, another bus, and a walk through the village. <strong>Pacentro</strong> is reachable by public transport if you plan your time carefully, because the bus from <strong>Sulmona</strong> runs only a few times a day.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczNTaCT22FqmRIRcKrtcqCoP5KEKwOImqeS_VijQMBOs7awUsaq6HsA50SiJRuk4lpzdU4TZaR6qEkfPKkB-72asGfVSQjLBIOri4DJHqcvtE8E1V5UPrAM9LyongsGngolK8Aczw8RW0SprrHaKYvnb=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOafCJk8CdMtoovnzkNr-Igsq3k8YbsSSPM_kH3Z_mjxJPSWXGhFATTYDGXqNfKq0fNMz7jlrAuFHtahNeZGM7XZNsth8LQmnpeRFDfI3ilqpTbvy1o4CeMq2g2v7Wt5_cIPSRgPYMiJ1dPpUJ9-fUp=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+  <div class="article-body">
+    <h3 id="castello-caldora">Castello Caldora</h3>
+    <p>I got off the bus at the entrance to the village and continued on foot. First stop: <strong>Castello Caldora</strong>, also known as <strong>Castello Cantelmo-Caldora</strong>. The castle has medieval origins and was expanded and fortified over the centuries. It belonged to several noble families, including the <strong>Cantelmo</strong> and <strong>Caldora</strong>, major landowners in the region during the 14th and 15th centuries. In 1957, the castle was sold to the municipal government for the symbolic sum of <strong>10,000 lire</strong>.</p>
+    <p>The castle is carefully restored and has a tall tower with a superb panoramic view over the valley and mountains. During my visit the weather alternated between light rain and sunshine, then clouds, then drops again and back again, but that's exactly what gave me some beautiful shots.</p>
+    <p><strong>Useful info</strong>: entry costs <strong>2.50 euros</strong> and is cash only. The castle is open between 10am and 5pm.</p>
+  </div>
+ {{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOaaVCA6caehbSJsDarjrclKeylyaHlLC165F9pkwi1kqxMIxhupr-3VgzCgoXsQfs-OeL36MeSpPmm0hfGIJM1dRv72_vzt1H8hjOygY6v6rYPe0z80tdiSsWbCfHIxtNjZJO7xD8k1GlvPBrFiNQW=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczM2P-nq7fitJhYUGbV-78TkTxfw9ICPTQGHavN1ofxMeyblNncz7BQ3gtivn7BbUejOOmOsm93Kf45OYwlekFc0_1mPUK1Aa0VMQ0PGF4ZJ2Y23q_kzVsjXn48ggFPw7Z0LpvM7hbZ_w0MTKFByka1Q=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczO8oAzGU-zjqzTV05m6Tx1Qwu3Gs_02-G9K-LRzjyZWt9Of3jAIpqA8js7PO7MZVi_K2I807XCD9hFg-NyppeTSysmbehAzKKa61235Jcze-kPg0EeuKtEdb6vDVRJyyHEqVbLS4jlxfRsI2llcZvr4=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczNDlucimLaLae1EEhCRb03qWIvTQ8JrEneebdcc4OZCWUkuocW1fEZFqegdHmZCxnYSAdB0ti7LFsyoVf_W0wVicLDF_bmuOmUxkhDLa2OkeLHNvupkd6zASNACoFUZuqK7lcJ5Of-gQMf3BxFHl3AT=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPRBweEafYvbbCtkCKbN3yKjSCwW3Ma7GN75MS9PTY0G6iix4tcuuHrMAMAQR2QIM1-imC25yz1_qNRg4CkmUGcIhPKa3nSdEHqqbcfw8LDKB80SvXPgfU958H3fgl-DYXRmjHqqxX6LIYUlklpX3kC=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczP0KIiLU4QyB8_zpj8KidUnNSjWqVM7lEmiUlNAefHX4YL0m6mhIjD0dxn_JmfZ6aeoEUB1OuGa5Q2Vqv6bUW7H7tXexkcRr2nmB6X2v-CRjBHJeND-8Q18I0n9CbRhADup0WbuJPfjzixwnLUKuayh=w533-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" vertical="true" >}}
+  <div class="article-body">
+    <h3 id="belvedere">Belvedere Pacentro</h3>
+    <p>From the castle, if you want to look at the village from a distance, you can continue along the road to an informal viewpoint. From there you can see all three towers and the houses clinging to the mountainside, with the valley behind. Worth the detour.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOF0kF8tKbiDYZ8Woy5eitwTrw4MAiaTdT60Jt8IwZzz0JOMXEW4gwCp8DhO3x7svD1Hq0Z-F3hzvquo75PxK1EOMXl77P9SCHfVu14xLbiGLwiXJg82L609nhfYsSqbhZ8F9OMm6FXN0w_S3fCkSsr=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczO2f05-aonfD74tHoy8nXEuFep91kT-oST1W6eNgCbUGeLFLQi5MIglvqiJ3DRaJ6hCShz0oVqjyIWXNGOAW2XQKnFEQXO6G6UMKn93vde07Q5kuDpaCCQVmd0U2npOcaR8CGnpGXhmtOtTWXzy66_B=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOCZ2S2WxI3i0-_apMnxIkrb0qa1Kk19bz_ym1jdN5sG2DOTyC6P_Ho9ondHgxBIrz49EctBhH_E1Bepxp55Opr96GJXFN5f2jTC1ZRsygJ_1QSjtVztBgqHbhtKorWr1gaMln59D-HLs9EQvao5l3u=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOTk-m_n68Psy4xJu-eNNhpdU4Y7SfaT14Hx3MlrkPVc3N1pet-KGAG7iEutMt_zPyuXxdFipMkQXD12AoJOEPI2ITKGpLegCIP2SwiOICQXLQNtWjO1tqsn5mKeeOmU8Stv9Fgq37-QsyxUttowACg=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+  <div class="article-body">
+    <h3 id="canali">I Canali, the old public washhouse</h3>
+    <p><strong>I Canali</strong>, officially known as the <strong>Antico Lavatoio Pubblico</strong>, is an old communal washhouse where village women came to do their laundry. The water no longer flows, but the site is preserved and has explanatory panels that help you understand how village life revolved around it. It was a social hub, not just a utility.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPRWMUr4pDXvaY1Yd9VJsIHg_JwROLCmYpo-sKsDaxDIBI_WkcpWAp4wE40XnXcRItesez3pWg7ILkCo5ajl-SWjDWBbCnA3fOhYV__v9Bh_WU7R1YqdP-CqS4wMKD_v6kDeQgX83Wkytgvox4pX_QY=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+  <div class="article-body">
+    <h3 id="preta-tonna">Preta Tonna</h3>
+    <p><strong>Preta Tonna</strong> is a heavy, round stone tied to a local tradition: village men would lift it as a test of strength, part of an old custom connected to the <strong>Corsa degli Zingari</strong>, a barefoot race held every August in <strong>Pacentro</strong> and one of the oldest folk events in <strong>Abruzzo</strong>. The stone lifting was the original qualifying test. The race itself has no real equivalent anywhere else in the region, and given how little English-language coverage it gets, if you happen to be here in late August, it's worth timing your visit around it.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOxdZW4t3RqkjSsIIOQR8CAw3ULL1Zv1Af7vZOnJgOxNCZnrwFcK7U1dsMw6hsp2geHMi5No628HQurQ3c_UrL1TA2oXm6LBuY9KiKsNT7YbzssXXOlM0a2kN_pAhft_6QCC3RFjmAdV9hWPqgeHzoD=w533-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" vertical="true" >}}
+  <div class="article-body">
+    <h3 id="historic-centre">The historic centre of Pacentro</h3>
+    <p><strong>Pacentro</strong> is small and can be visited in two hours; if you don't stop for lunch there isn't much else to do. But it's quiet, and there were restoration works underway on many historic buildings. What language do you think the workers were speaking? Hint: their language is related to Italian. Yes, Romanian. There are many Romanians working in construction in <strong>Abruzzo</strong>, a region with a long history of emigration and a workforce that now comes from elsewhere.</p>
+    <p>If you want to eat on site, there are a few options in the village. <strong><a href="https://maps.app.goo.gl/BXXZ5gaebNder44r8" rel="noopener" target="_blank">Taverna dei Caldora</a></strong>, in the centre, serves traditional Abruzzese food including <em>arrosticini</em>, the region's characteristic lamb skewers. For a quick break, the central café in the main square is enough.</p>
+    <p>One activity I didn't try but worth knowing about: <strong>Pacentro</strong> has a zipline called <strong>Volo dell'Angelo</strong> that runs down the mountainside with views over the valley. It's bookable in advance and popular in summer.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOQ1AJckQfTjBGIeAmuALYuOMWyGTH6Xe7DFNr21TsBI62dlzh7kf6dYuJyzGZjHCXkdWrbeROlGs9vyjsAYYFkQ1FApjw4L1MXNcPNsriu7yMXvFhXp9hwQDJOGfO4_MIXiPa7Qul9KQRFh2xTwFeE=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczMi5ZaRWer-Rq8bZVN_tneCfg5Oou9bWSmrHZFmuyGHejFC7Hmidey7Rig0snHKKuaVLyIGHns0cqwI40U6bNNkLugq-NYLKlBvok7vmkPbQlW5NO04x2OP1leCh6s3-nJgyOo-IAP6HGBnAZkwFUUd=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczN-qbZCWJ5PixOdC2fyyKeLYnya-5Qf8f0kh0SMAImTn-mPtw_VbAxSRJ5KABIZCJf_3Ty9wzmzfLiBzEq8inKYaC7keR7XXx7vyXtS5K6T3ZTiaCFRtAib1yrwK8wLmx9uLTL-yFtWn3yccY0dEIN9=w533-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" vertical="true" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPEDuErBafws5tDm7LZl82WniT5mP4fPmjQ3LdymY5nNDHG41rGP0La5niMqDSTc4TP8fBFqFXA1G1FVASVfKxuMDgPZslkQF8B-ALjkqpoDUmVmIfoluSdKQWWHoBMoT2xo_ThU_1RsJwolvpbseKY=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPGYqOo-wlrfcGz0dPfD9ZeVXevcpgEPsGpIz8xUK_q-sDqu2mJZ4O_48IPieHaiZzF5ZlGQ9LcxeSldDUZx1DIj2I5GTYseRdPaLWFP0FxtTPzpFlYsSTagNfmhdmQccJJx0hVZWZuKfqP-9Ku9ZXD=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOJDaGSG3RdqgJ_J8XGg70D1NY3cRcYgIUkqYeAJIiCnaXb6qK_bp6pRoPeJg4EPU1rP1BIBqcz5C3IsEpXhH960zkDXnycTWBvzrsNlVSy-txz1c2gbGVKwC5fbR1qPc9kESgaxgVqe6YHLaijF-Gn=w533-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" vertical="true" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOOF08mzezsFYJl_jFOoejXQIrDHoBo5KYIFTX0UXqgIASR9zF3NIdDWaPNErYuzGUCQ1c_1k-KDEWaxvxm-dujtCxOmF7xf6eA7KJVMuWWlaUojOtR8tYm7LFFitoEHfk8VvORZRGIiMNZflr56O6G=w533-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" vertical="true" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczM2QfpLq6iNmpmkU8sXy8YNN33Zi8OkJL43UgaaFw63fNEOYcsb3QVqgLjuszUUSIHTpPoicqMgBUEnDEyvv-8BNX_aL2QAmHfVXsJMfdLLsOwWdlP9N8wAro5_PMoxEyqWEI0NdYCpkYUuWEONvGqz=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOLmGkp6ExEEEU-X0ObH4meUHF4TSd8Ji9_T-64tTgkcjw5n6oJZlK12VEdGF_KBLAkHtkPgQzSzHXmLx5Yno3z8tVZsgvsKrZxnr87QyB3euZS6dK_2npBsaDUjx9NaKJqlI5j7TLpKGc5YtOZ5s6Z=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPoh-wEu0W1rKbny9lZe6Ek9CL5p6zNjSxF3Lq-pfXNamrMCd794pdn1qgCUkZrrG0XY1qcd3wD5mh3CThqApqlzLQoOj5RV8f3vqcxmkg5JFGPqrWgxeUC4TXpIGnBRs8Z5FI5bvb7XFKKGFl1X9RB=w1200-h800-s-no-gm?authuser=2" alt="Pacentro, Italia" >}}
+  <div class="article-body">
+    <h3 id="things-pacentro">Things to do in Pacentro, Italy</h3>
+    <p><strong>Pacentro</strong> is compact enough to cover in two hours. The main stops are <strong>Castello Caldora</strong>, the <strong>Belvedere</strong> viewpoint, <strong>I Canali</strong> washhouse, and the <strong>Preta Tonna</strong> stone. That covers the village. If you're here in August, add the <strong>Corsa degli Zingari</strong> barefoot race to the list. If you want an adrenaline break, book the <strong>Volo dell'Angelo</strong> zipline in advance.</p>
+    <h3 id="how-to-get">How to get to Pacentro</h3>
+    <p><strong>Pacentro</strong>, <strong>Italy</strong> sits about 10 km from <strong>Sulmona</strong>, in the province of <strong>L'Aquila</strong> in central <strong>Abruzzo</strong>, roughly midway between <strong>Rome</strong> and <strong>Pescara</strong> in the Apennine mountains.</p>
+    <p>The public transport route from <strong>Pescara</strong> looks like this. I took the bus from <strong>Pescara</strong> airport to <strong>Pescara Centrale</strong> (<strong>1.40 euros</strong>, card payment accepted on the bus), then the train to <strong>Sulmona</strong> (<strong>7.90 euros</strong>), and from near <strong>Sulmona</strong> station a bus that goes to <strong>Pacentro</strong>.</p>
+    <p>The <strong>Sulmona</strong>–<strong>Pacentro</strong> bus runs only a few times a day. Between the train and the next bus departure I had an hour and a half to wait; I used the time to eat something at the station café.</p>
+    <p>Tickets can be bought in person at the station café (<strong>5 euros</strong> for two tickets) or through the <strong>TUA Abruzzo</strong> app, available on <a href="https://play.google.com/store/apps/details?id=net.pluservice.tua" rel="noopener" target="_blank">Google Play</a> and <a href="https://apps.apple.com/us/app/tuabruzzo/id1481075550" rel="noopener" target="_blank">App Store</a>. I had a registration error in the app, assumed I could buy the ticket on the bus, and when the bus arrived I found out that wasn't possible and briefly panicked that I'd miss it after all that waiting. The driver waited while I bought the tickets in person.</p>
+    <p>The bus reaches <strong>Pacentro</strong> in about 20 minutes, and the view along the way is beautiful; as you approach you can spot it perched on the hillside with the mountains behind it.</p>
+    <p>On the return there were departures at 14:22 and 14:55, after which there was a long gap with the next bus not until around 19:00. I caught the 14:22. For the updated timetable check the <strong>TUA Abruzzo</strong> website, <a href="https://tuabruzzo.it" rel="noopener" target="_blank">tuabruzzo.it</a>.</p>
+    <p>If you're coming from <strong>Rome</strong> rather than <strong>Pescara</strong>, <strong>Sulmona</strong> is reachable by direct train from <strong>Roma Tiburtina</strong> in about 2.5 to 3 hours. There are also bus connections operated by regional carriers, though the train is more reliable.</p>
+    <h2 id="sulmona">Sulmona</h2>
+    <p><strong>Sulmona</strong> is the city where <strong>Publius Ovidius Naso</strong> was born, in 43 BC. He was born among mountains and died in <strong>Tomis</strong>, <strong>Constanța</strong>, on the shore of the <strong>Black Sea</strong>, exiled by Emperor <strong>Augustus</strong> in 8 AD for a reason he never fully explains in the <em>Tristia</em>. An interesting fate.</p>
+    <p>Everything in <strong>Sulmona</strong> is about <strong>Ovid</strong>: his statue in <strong>Piazza XX Settembre</strong>, the <strong>Corso Ovidio</strong> that cuts through the city, shops, guides, books. Beyond that, the city is picturesque and has a 13th-century medieval aqueduct, Gothic and well preserved, standing in <strong>Piazza Garibaldi</strong>. From there you can see the mountains, which still had patches of snow on their peaks when I visited.</p>
+    <p><strong>Sulmona</strong> is also the capital of <em>confetti di Sulmona</em>, the sugar-coated almond sweets used at weddings and celebrations throughout <strong>Italy</strong>. The most famous producer is <strong>Confetti Mario Pelino</strong>, open since 1783, with its own museum you can visit.</p>
+    <p>If you want to eat in town, there are a few classic options. <strong><a href="https://maps.app.goo.gl/REiEBun48uGSeGTe6" rel="noopener" target="_blank">Hostaria dell'Arco</a></strong>, in the centre, serves traditional Abruzzese food including <em>arrosticini</em> and <em>paste alla chitarra</em>. For a break with a view of the aqueduct there are several cafés in <strong>Piazza Garibaldi</strong>. The wine to try is <strong>Montepulciano d'Abruzzo</strong>, a robust local red that goes with almost anything the region has to offer. One more local specialty worth picking up: <strong>Sulmona</strong> red garlic (<em>aglio rosso di Sulmona</em>), a variety with a protected designation of origin, sold in braids at the market and in most food shops in town.</p>
+    <p>If the name <strong>Sulmona</strong> rings a bell beyond <strong>Ovid</strong>, it might be from <strong>Stanley Tucci</strong>'s Searching for Italy, where this part of <strong>Abruzzo</strong> got a rare moment of international attention. The <em>confetti</em> and the <em>pasta alla chitarra</em> were both involved.</p>
+    <p><strong>Sulmona</strong> also has two events worth planning around. At Easter, the city hosts the <strong>Madonna che scappa in piazza</strong>, one of <strong>Italy</strong>'s most dramatic religious processions: a statue of the <strong>Madonna</strong> moves across <strong>Piazza Garibaldi</strong> toward the Risen Christ, accompanied by fireworks and a crowd that fills the entire square. In summer, the same piazza becomes the stage for the <strong>Giostra Cavalleresca</strong>, a medieval jousting tournament with costumes, processions, and competing city districts.</p>
+    <p>One more unexpected connection: <strong>Valle Peligna</strong>, the valley where <strong>Sulmona</strong> sits, is a region known for apricot cultivation. In <strong>Romania</strong> there is an apricot variety called <em>cais de Sulmona</em>, well known among fruit growers, derived from genetic material brought from this area. <em>Confetti</em> and apricots, two things the city can call its own.</p>
+  </div>
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczNBeczR6_shJ74Ze5tUF5bsgaeo_kVFNJByWNgyLArtbEoZ-FXiWob7cxPmPklsPbh2W5IBnwRo7FWtoSEL5374xSCTYnCzBNFAEvIfgsA5ZsQH0iKJRYKgG93Aw1nZESP1gcKo3kSU-2YxwJgdyIaG=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPJ_m4GqNV2jr0k2-33WNzBitq1fuG32fA5gpjKm-BlHFYb5l2k5-rKn9EBpc0Qm4DHAzeBVqzPH4J8-KnUJQQnxMuygaWbj1XF5ZLEKRI3jQVj5FT2mEIo9uKrPOZtIkI2Ned_up_dhWnvQ5kSYSWG=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOST3dCazGl5LtPdCMFMTbgZl_4oh7iEEMaFTsITw-k1YnV1NqfR0CFLcu-P-xsQi-bq15hLoB8Z3pUup1m6rIxj-vLBN4KDDR1zF9kp8PMlC02AMJjKe9bJE4wurC-_4YCp07NiuU94ISImKJzlgEr=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOKrsRP9ptakF17r0pXRLLziW1FAxocP6U_s44wLPQhp-GxsmjHr5eT83TgB6mGRAZ_IuRm_36wGu9OE-QjRcAwUcsc0YQcOiuHwtbNasv31N_v7NhYJ2DJKNRmQoIgD9nfaCRkLw9otgMm93-USZsY=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPmLaJZ5uPnPcit6_Hu1uaoO_fxDRj90a4xsEHxpmcB7ViM7pF_R6L5mVHwxPu4acVFqeETCrP5R3WejrdebCN9T9n1sSYAX-TRNsm7W8bkmFd_sO4Fk-iedtkSKCEq6J0NQeitmipqqHwV12m8A9jP=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczPZt2KM2kIjim1yaUylCNIt1uLYdIRXEnx35iRxdFeZ_4IoXCeEDodaEjBNUugYSua8jzKAGULtDS5ttgy9dnegiFw1rDtIlcWYbe1-r154_ibrgsfY0gcEEeRTKI4sza86VwHXAvFEgILPuG763t1V=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOJvJLQFBpBfe5H0BlUaVDHd5VabWc-KZ8n9Nybc_i20UYIlKcpwiR-q0qVX3kHaaNIYHeX5wLkauvMja_zSHIoYHlOcgUjIJj3ZSFFW3oqcGX1KF3JsoFUUsuGeVjPPlN-8ySN7uhEa9OqWWm2yPOz=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczNmL6E-H9F3iloULoLHoP36RiXNdqV1hzCh1mMxztuLfu5XDfKqBM1wheXurixdGwFqV5_o7QK--YcMS-L6hxJNril5dN1-3CS7PbRvTUSRas99M_EsC9qWsWSu-6ahTSEs_8vJN_LybNHx5r3sKdLp=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczNEpS18crSPN-EL1fNiyrMmiB2YNqHOU0zWXuhV-TscVoHkj1TwTIjhh1I_F8o_yMGb1qR46y-PmogaDblhcVs2yrfQI3wncDfCzUq9JFgdsbmAEAODwWBOq0kldc7dIkiqEhyXAiyxZ6WZXQRYH_Yf=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczOqBcC3bN5x67x0-2nPAxByNqwYEzzNQ7DMqF-FwRRxdXLaVfhCi3BaCGSU1Dzulyu50M4_80tmhy6mNiVHfFGeGYi1l77GV6l2icncgHtaUSkYBKYkaTAuPQq_nSoEFzS8zQKeuRV_LtrLC5CeZRmv=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+{{< photo src="https://lh3.googleusercontent.com/pw/AP1GczMiw3GocjlglLq5O2GuLOfnAkGHZvmXdWvHWQgFi12TlvIR33S_pIA8FklMh_hEDGvfWKamM2kOP-wDv3jUlgvYh_Z0VIqXyCJSoCdmMXdi1QGv1_PSLDezBlYqZ9Glb4gYQeycwXKcj2u3kqCTfIaY=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" >}}
+  <div class="article-body" style="padding-bottom: 64px;">
+    <h3 id="things-sulmona">Things to do in Sulmona, Italy</h3>
+    <p>The city covers easily in one to two hours. Walk <strong>Corso Ovidio</strong>, stop at <strong>Piazza Garibaldi</strong> for the aqueduct view, visit <strong>Confetti Mario Pelino</strong> if the museum is open, and eat somewhere that serves <em>paste alla chitarra</em>. If your timing overlaps with Easter or the summer jousting tournament, plan ahead because the piazza fills up.</p>
+    <h2 id="how-to-visit">How to visit Sulmona and Pacentro</h2>
+    <p>Train from <strong>Pescara</strong> to <strong>Sulmona</strong>, then the <strong>Sulmona</strong>–<strong>Pacentro</strong> bus. <strong>Sulmona</strong> station is not central, it's on the edge of town, so on the return from <strong>Pacentro</strong> I walked over a kilometre to reach it.</p>
+    <h2 id="accommodation">Accommodation in Abruzzo, Italy</h2>
+    <p>I stayed in <strong>Giulianova</strong>, near <strong>Pescara</strong>, at <strong><a href="https://www.booking.com/hotel/it/foresteria-giulianova-giulianova1234567891011121314.html?aid=1266664&label=postbooking_confemail;pbsource=conf_email_hotel_name" rel="noopener" target="_blank">Ostello e Camere Private Prima Luce Foresteria</a></strong>. It's a hostel inside an active monastery; the rooms are the ones where monks used to live, and there are probably far fewer of them now. From <strong>Sulmona</strong> I took a direct train there, <strong>12.70 euros</strong>.</p>
+  </div>

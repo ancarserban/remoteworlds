@@ -1,0 +1,8 @@
+baseURL = "https://remoteworlds.com/"
+languageCode = "en-us"
+title = "remote worlds"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

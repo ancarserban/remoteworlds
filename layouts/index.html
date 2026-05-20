@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <div class="rw-hero">
+    <div class="rw-hero-text">
+      <div class="tag-row"><span class="tag">Useful travel tips</span><div class="tag-line"></div></div>
+      <a href="/solo-travel-blog/" class="rw-hero-title">A different kind of travel blog: solo, car-free, working from anywhere</a>
+      <p class="rw-hero-sub">I travel alone, backpack on, no car and no agencies, working remotely from every corner of the world — and I write about all of it here.</p>
+      <div class="rw-meta-light">19 May 2026 &nbsp;·&nbsp; 8 min read</div>
+      <a href="/solo-travel-blog/" class="rw-hero-link">Read article →</a>
+    </div>
+    <a href="/solo-travel-blog/" style="display:block;">
+      <div class="rw-hero-img" style="background-image:url('https://www.1001calatorii.ro/wp-content/uploads/2021/02/Medellin21.webp');min-height:460px;"></div>
+    </a>
+  </div>
+  <div class="rw-white-section">
+    <div class="rw-white-header">Latest articles</div>
+    <div class="rw-grid">
+      {{ range first 6 (where .Site.RegularPages "Type" "posts") }}
+      <a href="{{ .RelPermalink }}" class="rw-grid-card">
+        <div class="rw-grid-img" style="background-image:url('{{ .Params.featured_image | safeURL }}');"></div>
+        <div class="rw-grid-body">
+          <div class="rw-grid-tag-row">
+            {{ range .Params.categories }}<span class="rw-grid-tag">{{ . | safeURL }}</span><span class="rw-grid-tag-sep">·</span>{{ end }}
+            <div class="rw-grid-tag-line"></div>
+          </div>
+          <h2 class="rw-grid-title">{{ .Title }}</h2>
+          <p class="rw-grid-sub">{{ .Description }}</p>
+          <div class="rw-meta-dark">{{ .Params.read_time }}</div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

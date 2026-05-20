@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ if eq (.Get "vertical" | default "false") "true" }}
+<div class="article-img-v"><img src="{{ $src }}" alt="{{ $alt }}" loading="lazy"></div>
+{{ else }}
+<div class="article-img"><img src="{{ $src }}" alt="{{ $alt }}" loading="lazy"></div>
+{{ end }}

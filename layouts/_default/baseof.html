@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}remote worlds — solo travel blog, 128 countries, no car{{ else }}{{ .Title }} | remote worlds{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}Solo travel blog covering 128 countries by public transport. No car, no agency.{{ end }}">
+  <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+<div class="rw-wrapper">
+  {{ partial "nav.html" . }}
+  {{ block "main" . }}{{ end }}
+  {{ partial "footer.html" . }}
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<header class="article-header">
+  <div class="article-cats">
+    {{ range .Params.categories }}
+    <a href="/{{ . | urlize }}/" class="article-cat">{{ . | safeURL }}</a>
+    <span class="article-cat-sep">·</span>
+    {{ end }}
+    <div class="article-cat-line"></div>
+  </div>
+  <h1 class="article-title">{{ .Title }}</h1>
+  <div class="article-meta">
+    <span>By <span class="article-meta-author">{{ .Params.author | default "Anca" }}</span></span>
+    <span class="article-meta-dot">·</span>
+    <span>{{ .Date.Format "January 2006" }}</span>
+    <span class="article-meta-dot">·</span>
+    <span>{{ .Params.read_time }}</span>
+  </div>
+</header>
+{{ with .Params.featured_image | safeURL }}
+<div class="featured-image">
+  <img src="{{ . | safeURL }}" alt="{{ $.Title }}">
+</div>
+{{ end }}
+{{ .Content }}
+{{ end }}
