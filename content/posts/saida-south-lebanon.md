@@ -9,8 +9,6 @@ author: "Anca"
 draft: false
 ---
 
-Saida (Sidon), Another Side of Lebanon
-
 Saida, known in English as Sidon, is one of the oldest continuously inhabited cities in the world. Located on the Mediterranean coast about 40 km south of Beirut, Saida in south Lebanon sits in a region that feels noticeably different from the capital and the Christian north. If you want to see something beyond <strong>Beirut</strong> — beyond the elegant <strong><a href="https://www.1001calatorii.ro/byblos-liban/" target="_blank">Byblos</a></strong> and <strong><a href="https://www.1001calatorii.ro/batroun-lebanon/" target="_blank">Batroun</a></strong> — you can head to <strong>Saida</strong> (<strong>Sidon</strong> in English, or <strong>Sidon Lebanon</strong> as it appears in most historical sources) or to <strong>Tyre</strong>, both on the <strong>Mediterranean</strong> coast. The difference is that this area is home to <strong>Hezbollah</strong> sympathizers, and the atmosphere is noticeably different from the Christian region north of the capital.
 
 <h2>Beirut – Sidon Lebanon</h2>
