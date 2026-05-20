@@ -16,8 +16,8 @@ draft: false
 
 <h2>Beirut - Sidon Lebanon</h2>
 
-<p>From <strong>Beirut</strong>, getting to <strong>Sidon</strong> is easy — take the local minibuses from the <em><a href="https://maps.app.goo.gl/FTEJDAcSo8BF89YQ9" target="_blank">Cola intersection</a></em>, the city's informal main bus hub, and ask for <strong>Saida</strong>.
-As soon as you leave, you'll notice the difference from the north: trash everywhere. That part of <strong>Beirut</strong> looks the same — plastic bottles tossed from cars, scattered along the roads, never picked up by anyone.</p>
+<p>From <strong>Beirut</strong>, getting to <strong>Sidon</strong> is easy — take the local minibuses from the <em><a href="https://maps.app.goo.gl/FTEJDAcSo8BF89YQ9" target="_blank">Cola intersection</a></em>, the city's informal main bus hub, and ask for <strong>Saida</strong>.</p>
+<p>As soon as you leave, you'll notice the difference from the north: trash everywhere. That part of <strong>Beirut</strong> looks the same — plastic bottles tossed from cars, scattered along the roads, never picked up by anyone.</p>
 
 <p>When you arrive in <strong>Sidon</strong>, it's more of the same — trash on the beach, trash in the streets, trash everywhere. Plastic bags floating in the water next to the Crusader castle, just to remind you where you are.</p>
 
@@ -54,11 +54,8 @@ As soon as you leave, you'll notice the difference from the north: trash everywh
 <h2>The Saida Soap Museum (Audi Soap Factory)</h2>
 
 <p>From the <strong>Saida Sea Castle</strong> I made my way through the <em>souq</em> toward another castle, and along the way I stumbled upon the <strong>Saida Soap Museum</strong>. <strong>Sidon</strong> was an important commercial hub between east and west, and among its prized export goods was soap, which traveled from <strong>Sidon</strong> to <strong>Damascus</strong>, <strong>Istanbul</strong>, and other Mediterranean ports.</p>
-
 <p>The building that now houses the museum is a former soap factory belonging to the <strong>Audi</strong> family, restored in the late 1990s, though the space itself is much older — dating back to around the 17th century.</p>
-
 <p>Inside you'll find old soap-making equipment: large copper vats where the mixture was boiled, wooden molds for pouring, special knives for cutting the blocks, and areas where the bars were left to dry for weeks at a time. The museum occupies an elegant, well-kept building — a sharp contrast to the chaos of the <em>souq</em> outside.</p>
-
 <p><strong>Useful info</strong>: entry fee is <strong>$4 USD</strong>.</p>
 </div>
 
@@ -69,9 +66,7 @@ As soon as you leave, you'll notice the difference from the north: trash everywh
 <h2>Saint Louis Castle</h2>
 
 <p>The <strong>Saint Louis Castle</strong> in <strong>Sidon Lebanon</strong> is a ruin perched on a modest hill, not far from the <strong>Soap Museum</strong>. Unlike the <strong>Saida Sea Castle</strong>, this one is not open to the public and appears to be in much worse shape.</p>
-
 <p>The castle was built in 1254 by the Crusaders, during the time when <strong>Louis IX</strong> of <strong>France</strong> was in the <strong>Levant</strong> during the <strong>Crusades</strong>.</p>
-
 <p>Beneath it, traces of Phoenician and Roman occupation have been found.</p>
 </div>
 
@@ -81,11 +76,8 @@ As soon as you leave, you'll notice the difference from the north: trash everywh
 <h2>The Souq</h2>
 
 <p>From the second castle you can make your way through the labyrinthine souq. It reminded me a lot of the <strong>Medina in Fez</strong> — <strong>Sidon</strong> has the same narrow alleys, many of them vaulted, lined with old buildings in varying states of disrepair.</p>
-
 <p>Even though it's a Muslim city now, there's a Christian church tucked inside the <em>souq</em>. Occasionally a woman would pass by without a headscarf, but in general I felt a little like an outsider there — not unsafe, just out of place.</p>
-
 <p>Walking past a simple, local restaurant, I stopped in my tracks. They had <em>foul</em>, a classic Levantine dish, and it seemed like exactly the right place to have lunch: a plain table, no pretense, with a view of the secondhand clothes being sold next door. It doesn't get more authentic than that.</p>
-
 <p><strong>Useful info:</strong> the meal cost <strong>$3 USD</strong>.</p>
 </div>
 
@@ -101,9 +93,7 @@ As soon as you leave, you'll notice the difference from the north: trash everywh
 <h2>Khan al-Franj</h2>
 
 <p>When you exit the souq, you reach <strong>Khan al-Franj</strong>, also known as the "Inn of the Franks." It was built in the 17th century during the reign of <strong>Fakhr al-Din II</strong>, the local ruler who sought to open <strong>Lebanon</strong> to European trade.</p>
-
 <p>Part of the building is now managed by the <strong>French Institute of Lebanon</strong> and has been turned into a cultural space hosting exhibitions, concerts, and events. You can visit for free — there was someone at the entrance who greeted me with <em>bienvenue</em>, and a few Levantine cats.</p>
-
 <p><strong>Useful info:</strong> entry is free.</p>
 </div>
 
@@ -130,6 +120,5 @@ As soon as you leave, you'll notice the difference from the north: trash everywh
 <h2>Getting from Beirut to Saida</h2>
 
 <p>You can get to <strong>Saida</strong> by public transport. From the <strong><a href="https://maps.app.goo.gl/FTEJDAcSo8BF89YQ9" target="_blank">Cola intersection</a></strong> in <strong>Beirut</strong> there are frequent minibuses heading there and further on to <strong>Tyre</strong>. The fare is $1.50 or $2 USD depending on the operator.</p>
-
 <p>A few hours are enough to see <strong>Saida</strong> — if you set out early, you'll have time for <strong>Tyre</strong> as well.</p>
 </div>
