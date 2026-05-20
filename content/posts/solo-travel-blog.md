@@ -18,7 +18,7 @@ draft: false
         <li><a href="#how-to-find">How to find a destination (guides, budgets, transport)</a>
           <ol><li><a href="#standout">Some standout articles</a></li></ol>
         </li>
-        <li><a href="#what-sets-apart">What sets me apart (solo travel, 115 countries, unusual routes)</a></li>
+        <li><a href="#what-sets-apart">What sets me apart (solo travel, 128 countries, unusual routes)</a></li>
         <li><a href="#myths">Myths</a>
           <ol>
             <li><a href="#myth-1">"You need to travel with someone"</a></li>
