@@ -272,4 +272,4 @@ draft: false
 
 <p>This is not a complete list of the best tropical islands to explore — nobody could write that list. But it's an honest one, built from years of solo travel across three oceans. I have my eye on <strong><a href="https://en.wikipedia.org/wiki/Pacific_Ocean" rel="noopener">Pacific</a></strong> islands next: <strong>Bora Bora</strong>, <strong>Fiji</strong>, <strong>Tahiti</strong>, and <strong>Vanuatu</strong>, along with the rest of the <strong><a href="https://www.1001calatorii.ro/insulele-caraibe/" target="_blank" rel="noopener">Caribbean</a></strong> islands, like <strong>Martinique</strong>.</p>
 
-<p>So many islands still to go! ☺️</p>
+<p>So many islands still to go! ☺️</p></div>
