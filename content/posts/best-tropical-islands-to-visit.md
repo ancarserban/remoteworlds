@@ -14,37 +14,37 @@ draft: false
 <div class="toc">
 <div class="toc-title">Contents</div>
 <ol>
-  <li><a href="#hawaii-united-states">Hawaii, United States</a></li>
-  <li><a href="#seychelles">Seychelles</a></li>
-  <li><a href="#mauritius">Mauritius</a></li>
-  <li><a href="#saint-lucia">Saint Lucia</a></li>
-  <li><a href="#palawan-philippines">Palawan, Philippines</a></li>
-  <li><a href="#galapagos-ecuador">Galápagos, Ecuador</a></li>
-  <li><a href="#hispaniola-dominican-republic">Hispaniola, Dominican Republic</a></li>
-  <li><a href="#guadeloupe">Guadeloupe</a></li>
-  <li><a href="#curacao">Curaçao</a></li>
-  <li><a href="#zanzibar-tanzania">Zanzibar, Tanzania</a></li>
-  <li><a href="#bali-indonesia">Bali, Indonesia</a></li>
-  <li><a href="#sri-lanka">Sri Lanka</a></li>
-  <li><a href="#cuba">Cuba</a></li>
-  <li><a href="#koh-samui-thailand">Koh Samui, Thailand</a></li>
-  <li><a href="#puerto-rico-united-states">Puerto Rico, United States</a></li>
-  <li><a href="#similan-islands-thailand">Similan Islands, Thailand</a></li>
-  <li><a href="#st-vincent-and-the-grenadines">St. Vincent and the Grenadines</a></li>
-  <li><a href="#aruba">Aruba</a></li>
-  <li><a href="#maldives">Maldives</a></li>
-  <li><a href="#jamaica">Jamaica</a></li>
-  <li><a href="#trinidad-tobago">Trinidad &amp; Tobago</a></li>
-  <li><a href="#grenada">Grenada</a></li>
-  <li><a href="#langkawi-malaysia">Langkawi, Malaysia</a></li>
-  <li><a href="#holbox-mexico">Holbox, Mexico</a></li>
-  <li><a href="#barbados">Barbados</a></li>
-  <li><a href="#ometepe-nicaragua">Ometepe, Nicaragua</a></li>
-  <li><a href="#dominica">Dominica</a></li>
-  <li><a href="#bocas-del-toro-panama">Bocas del Toro, Panama</a></li>
-  <li><a href="#comoro-islands">Comoro Islands</a></li>
-  <li><a href="#koh-rong-cambodia">Koh Rong, Cambodia</a></li>
-  <li><a href="#san-andres-colombia">San Andrés, Colombia</a></li>
+  <li><a href="#hawaii-united-states">Hawaii, United States 🇺🇸</a></li>
+  <li><a href="#seychelles">Seychelles 🇸🇨</a></li>
+  <li><a href="#mauritius">Mauritius 🇲🇺</a></li>
+  <li><a href="#saint-lucia">Saint Lucia 🇱🇨</a></li>
+  <li><a href="#palawan-philippines">Palawan, Philippines 🇵🇭</a></li>
+  <li><a href="#galapagos-ecuador">Galápagos, Ecuador 🇪🇨</a></li>
+  <li><a href="#hispaniola-dominican-republic">Hispaniola, Dominican Republic 🇩🇴</a></li>
+  <li><a href="#guadeloupe">Guadeloupe 🇫🇷</a></li>
+  <li><a href="#curacao">Curaçao 🇨🇼</a></li>
+  <li><a href="#zanzibar-tanzania">Zanzibar, Tanzania 🇹🇿</a></li>
+  <li><a href="#bali-indonesia">Bali, Indonesia 🇮🇩</a></li>
+  <li><a href="#sri-lanka">Sri Lanka 🇱🇰</a></li>
+  <li><a href="#cuba">Cuba 🇨🇺</a></li>
+  <li><a href="#koh-samui-thailand">Koh Samui, Thailand 🇹🇭</a></li>
+  <li><a href="#puerto-rico-united-states">Puerto Rico, United States 🇵🇷</a></li>
+  <li><a href="#similan-islands-thailand">Similan Islands, Thailand 🇹🇭</a></li>
+  <li><a href="#st-vincent-and-the-grenadines">St. Vincent and the Grenadines 🇻🇨</a></li>
+  <li><a href="#aruba">Aruba 🇦🇼</a></li>
+  <li><a href="#maldives">Maldives 🇲🇻</a></li>
+  <li><a href="#jamaica">Jamaica 🇯🇲</a></li>
+  <li><a href="#trinidad-tobago">Trinidad &amp; Tobago 🇹🇹</a></li>
+  <li><a href="#grenada">Grenada 🇬🇩</a></li>
+  <li><a href="#langkawi-malaysia">Langkawi, Malaysia 🇲🇾</a></li>
+  <li><a href="#holbox-mexico">Holbox, Mexico 🇲🇽</a></li>
+  <li><a href="#barbados">Barbados 🇧🇧</a></li>
+  <li><a href="#ometepe-nicaragua">Ometepe, Nicaragua 🇳🇮</a></li>
+  <li><a href="#dominica">Dominica 🇩🇲</a></li>
+  <li><a href="#bocas-del-toro-panama">Bocas del Toro, Panama 🇵🇦</a></li>
+  <li><a href="#comoro-islands">Comoro Islands 🇰🇲</a></li>
+  <li><a href="#koh-rong-cambodia">Koh Rong, Cambodia 🇰🇭</a></li>
+  <li><a href="#san-andres-colombia">San Andrés, Colombia 🇨🇴</a></li>
 </ol>
 </div>
 
@@ -143,7 +143,7 @@ draft: false
 <p>White sand beaches, <em>piña coladas</em>, music, and colonial cities — <strong>Cuba</strong> is a famous exotic destination, if you can look past the communist regime and the various logistical headaches that come with traveling independently. But it's genuinely beautiful and has held onto a charm from another era.</p>
 
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczNgBCJeRcMFAjV1X3YLLaOgzGSStKJbqUHD9uOrcPzew1pNK7zg9bpKXIuSpMIMeVJVBdGMmq5h2IBO4ZZo8uwg8uaX8NgyYwbQEC-IFy-uVCu6bPB7XOoNAvY0r7n7h4AOi_iI47FSRaM4tFA=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
-<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczPdEpHr5nNJkwoqzqN7uixXYxazztadNcPS3d9VhegJ17C80bp-PrqjrHsZABdq-JGh4nh1ysPewxttF_K5BZdr-vxgXF00d8EwlmBynOH78aYg=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
+<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczPdEpHr5nNJkwoqzqN7uixXYxazztadNcPS3d9VhegJ17C80bp-PrqjrHsZABdq-JuSGn7xo8PuOzXST4D97iddKtM4qMQvS9jFDPfYAJNgcJGh4nh1ysPewxttF_K5BZdr-vxgXF00d8EwlmBynOH78aYg=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
 
 <h2 id="koh-samui-thailand">Koh Samui, Thailand 🇹🇭</h2>
 
@@ -193,7 +193,7 @@ draft: false
 <p>Perfect beaches and <em>jerk food</em> — <strong>Jamaica</strong> stuck with me for its laid-back atmosphere. You sit on the beach with a cup of <strong>Blue Mountain</strong> coffee, considered one of the best in the world, while reggae plays in the background. "Everything's gonna be alright," as <strong>Bob Marley</strong> said.</p>
 
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczNZk3LO2iMND2GGvVQusvDD-vUh8dZ8qWztCFLhfzbDdnXVet4-sbsMdt-yvm1Z3N_jHNsU14g3jabPRVyrDytZbrnrh0gSKW5J0pQeIJZN1ppGUlHUdNWtVMzzd2WUvuyrl2Uht8RgedOxIV5lF=w1200-h800-s-no?authuser=2" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
-<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczMpY958FPiLB08YO6ZcQX9_z6w-N_xDWI7XByH-xYyNVWdr6hv-oVTMd4C3UwBhHw_gIA1n-4-o1DH4Djzqm3r7Q7kD8lw7wEWNHq-5AR68UYzkVhVo2qFyL6EUJnvLIha6aqxs9DP6duC02TlKU3HJX=w1200-h800-s-no?authuser=2" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
+<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczMpY958FPiLB08YO6ZcQX9_z6w-N_xDWI7XByH-xYyNVWdr6hv-oVTMd4C3UwBhHw_gIA1n-4-o1DH4Zjqm3r7Q7kD8lw7wEWNHq-5AR68UYzkVhVo2qFyL6EUJnvLIha6aqxs9DP6duC02TlKU3HJX=w1200-h800-s-no?authuser=2" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
 
 <h2 id="trinidad-tobago">Trinidad &amp; Tobago 🇹🇹</h2>
 
@@ -259,7 +259,7 @@ draft: false
 <p><strong>Koh Rong</strong>, in <strong>Cambodia</strong>, is actually two islands with beautiful, easygoing beaches — you can visit on a day trip or stay longer.</p>
 
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczO5IP_XvYHiv6P_RPFsk6iwcxKaVfFtaDRgsBlbuAqqIls-pqA-KsACE_2u5yyboFPJP7kN3R_i8VA4yQRoFp67RFE2FZqT6WnQuges4Ay76Yi6iGznMFEZgNyMywI2irBpzBRfDgw=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
-<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczNZ8lJoG3NUK0b43D7wEN7Bu6Ogk3C8OcI3uCV8vqHm-naYh2PRetplH6ymqPD1uveuWh0A_-LQf_I97-Tv5UBxBhIfzMv5Qt4gdXknB5EUSAO8iF05sdo2SSv_un6MyoA=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
+<div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczNZ8lJoG3NUK0b43D7wEN7Bu6Ogk3CQEFftqbOcI3uCV8vqHm-naYh2PRetplH6ymqPD1uveuWh0A_-LQf_I97-Tv5UBxBhIfzMv5Qt4gdXknB5EUSAO8iF05sdo2SSv_un6MyoA=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></div>
 
 <h2 id="san-andres-colombia">San Andrés, Colombia 🇨🇴</h2>
 
@@ -272,4 +272,5 @@ draft: false
 
 <p>This is not a complete list of the best tropical islands to explore — nobody could write that list. But it's an honest one, built from years of solo travel across three oceans. I have my eye on <strong><a href="https://en.wikipedia.org/wiki/Pacific_Ocean" rel="noopener">Pacific</a></strong> islands next: <strong>Bora Bora</strong>, <strong>Fiji</strong>, <strong>Tahiti</strong>, and <strong>Vanuatu</strong>, along with the rest of the <strong><a href="https://www.1001calatorii.ro/insulele-caraibe/" target="_blank" rel="noopener">Caribbean</a></strong> islands, like <strong>Martinique</strong>.</p>
 
-<p>So many islands still to go! ☺️</p></div>
+<p>So many islands still to go! ☺️</p>
+</div>
