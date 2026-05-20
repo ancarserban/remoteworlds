@@ -8,7 +8,7 @@ read_time: "9 min read"
 author: "Anca"
 draft: false
 ---
-
+<div class="article-body">
 <p>Exotic vacations on your own, sometimes staying for a month at a time? Yeah, that's been my lifestyle for a few years now. I travel 5 to 10 months a year, so I've visited a lot of exotic islands and tropical countries in different corners of the world. If you're thinking about cheap tropical islands to visit on your own, no travel agency, here are the exotic places that I keep recommending to people. These are also, in my opinion, the best tropical islands to visit if you want the real thing, not a resort bubble.</p>
 
 <div class="toc">
