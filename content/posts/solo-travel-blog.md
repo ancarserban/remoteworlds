@@ -3,7 +3,7 @@ title: "A different kind of travel blog: solo, car-free, working from anywhere"
 date: 2025-07-13
 description: "Solo travel blog covering 128 countries by public transport. No car, no agency."
 categories: ["Travel tips"]
-featured_image: "https://www.1001calatorii.ro/wp-content/uploads/2021/02/Medellin21.webp"
+featured_image: "https://lh3.googleusercontent.com/pw/AP1GczNW3lcxWKsqs58VRadz60k5BKAoaJARuUi4F7Pmew-hb_9tSTyUwfD0ZDNzFUkQRW0kxy_tqKUXDAuW9PfQFyjuoQCp_lA0xsjbJvM1S8PK94pSTsPdaz9eZUvaVtp0Fy0_cCX9EUQ2Q-bMrL-YKY8OIg=w1200-h800-s-no?authuser=0"
 read_time: "8 min read"
 author: "Anca"
 draft: false
