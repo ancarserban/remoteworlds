@@ -66,7 +66,7 @@ Wide beaches with fine white sand, tree cacti, and the raw beauty of the edge of
 If you want the quintessential Caribbean beach experience — palm trees leaning just so, white sand, coral washed ashore — the <strong>Dominican Republic</strong> delivers. <strong>Saona</strong> and <strong>Punta Cana</strong> have beautiful beaches, and the <strong>Samaná</strong> peninsula offers completely different scenery, reminiscent of the <strong>Philippines</strong>, like <strong>Playa Frontón</strong>.
 
 <p><img src="https://lh3.googleusercontent.com/pw/AP1GczOqBXzZ7GOLfOHvVQ1CaWjp0ioXHLunwDG2qYWi-pdEnPe7p4srHNOZjuGer2jULnZwF3cpiPIBlm-1p3OMLr_tiKpQhxkxM8eRaBIvvGf3v_5yDQrg357yLGCL-sBTn09tiFHJ2fMYxJV_Wy3ay1pJBA=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></p>
-<p><img src="https://lh3.googleusercontent.com/pw/AP1GczMI2nS39De6qYzcwQxVtFDga_w9bEitTJ14AD7DpXQkL4Sn9o7ydVubnr4Nj84L9flIMDJ3f8CI02IyORLz18Pu-UyFIgegMiOxP4Hfbq9in-a4kphd2_8RZrrNdaV0TqUZcLzp97mWid9wytgPvQ=w1200-h800-s-no?authuser=0" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></p>
+<p><img src="https://lh3.googleusercontent.com/pw/AP1GczP4N_Kv5jKmZbUwwfPWaZTII6ntlUbHlVVqroXZnjm63A1ee5WV2yYJkXuIz3cNnTwBjC6ItXP4D3950IEWTKonjZS5_lDkDzbv6hRsUztF0rj-X9i8i4Gxd6zB3NCgIZo5Cg0V7qXiOCnaPb_BH3y9=w1200-h800-s-no-gm?authuser=2" alt="Exotic vacations" title="Exotic vacations" width="1200" height="800" loading="lazy" /></p>
 
 <h2>Guadeloupe 🇫🇷</h2>
 
