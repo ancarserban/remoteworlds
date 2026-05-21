@@ -139,7 +139,6 @@ draft: false
 <p><strong>Astana International Airport</strong> has direct connections to the main <strong>Central Asian</strong> hubs and to a handful of <strong>European</strong> cities, mostly through <strong>Air Astana</strong> or <strong>FlyArystan</strong>, its low-cost subsidiary. From <strong>Europe</strong> you'll usually connect through <strong>Istanbul</strong>, <strong>Dubai</strong>, or <strong>Frankfurt</strong>. I had a flight from <strong>Urumqi</strong>, <strong>China</strong>.</p>
 <p>If you're already in <strong>Kazakhstan</strong>, the <strong>Almaty to Astana</strong> route is well-covered: there are frequent flights (around an hour) and a train that takes roughly 12–14 hours overnight, comfortable and cheap. Most people fly, but the train is worth it if you're not in a hurry and want to see the steppe from the window.</p>
 
-<div class="article-body">
 <h2>Where to Stay in Astana</h2>
 
 <p>I stayed at <strong><a href="https://www.booking.com/hotel/kz/sulu-hostel-nur-sultan.html?aid=1266664&amp;label=postbooking_confemail;pbsource=conf_email_hotel_name" target="_blank" rel="noopener">Sulu Hostel</a></strong>. Eight nights in a small private room came to <strong>100 USD</strong>, small meaning windowless, but with access to a <em>living-coworking</em> space and a large kitchen. I felt comfortable there: modern, clean, good internet.</p>
