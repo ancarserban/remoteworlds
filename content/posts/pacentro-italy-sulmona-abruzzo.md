@@ -119,7 +119,7 @@ draft: false
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczNEpS18crSPN-EL1fNiyrMmiB2YNqHOU0zWXuhV-TscVoHkj1TwTIjhh1I_F8o_yMGb1qR46y-PmogaDblhcVs2yrfQI3wncDfCzUq9JFgdsbmAEAODwWBOq0kldc7dIkiqEhyXAiyxZ6WZXQRYH_Yf=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" title="Sulmona, Italia" width="1200" height="800" loading="lazy" ></div>
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczOqBcC3bN5x67x0-2nPAxByNqwYEzzNQ7DMqF-FwRRxdXLaVfhCi3BaCGSU1Dzulyu50M4_80tmhy6mNiVHfFGeGYi1l77GV6l2icncgHtaUSkYBKYkaTAuPQq_nSoEFzS8zQKeuRV_LtrLC5CeZRmv=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" title="Sulmona, Italia" width="1200" height="800" loading="lazy" ></div>
 <div class="article-img"><img src="https://lh3.googleusercontent.com/pw/AP1GczMiw3GocjlglLq5O2GuLOfnAkGHZvmXdWvHWQgFi12TlvIR33S_pIA8FklMh_hEDGvfWKamM2kOP-wDv3jUlgvYh_Z0VIqXyCJSoCdmMXdi1QGv1_PSLDezBlYqZ9Glb4gYQeycwXKcj2u3kqCTfIaY=w1200-h800-s-no-gm?authuser=2" alt="Sulmona, Italia" title="Sulmona, Italia" width="1200" height="800" loading="lazy" ></div>
-  <div class="article-body" style="padding-bottom: 64px;">
+  <div class="article-body">
     <h3 id="things-sulmona">Things to do in Sulmona, Italy</h3>
     <p>The city covers easily in one to two hours. Walk <strong>Corso Ovidio</strong>, stop at <strong>Piazza Garibaldi</strong> for the aqueduct view, visit <strong>Confetti Mario Pelino</strong> if the museum is open, and eat somewhere that serves <em>paste alla chitarra</em>. If your timing overlaps with Easter or the summer jousting tournament, plan ahead because the piazza fills up.</p>
     <h2 id="how-to-visit">How to visit Sulmona and Pacentro</h2>
