@@ -1,6 +1,6 @@
 
 ---
-title: "Astana, Kazakhstan: What to See, Do & Know Before You Go"
+title: "Futuristic Astana, Kazakhstan"
 date: 2024-07-13
 description: "Astana is unlike any capital on Earth: futuristic towers, a glass pyramid, the world's largest tent, and Central Asian hospitality. Here's what to see, where to go after dark, and how to get there."
 categories: ["Asia", "Central Asia", „Kazakhstan"]
